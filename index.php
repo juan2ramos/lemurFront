@@ -20,7 +20,8 @@
 
         <link rel="stylesheet" href="css/normalize.css" />
         <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/style.css" />        
+        <link href="css/jquery.mCustomScrollbar.css" rel="stylesheet" />
 
 
         
@@ -31,18 +32,19 @@
                 <figure id="logo">
                     <img src="images/logo.png" />
                 </figure>
-                <a href="#"><span></span>Registrate</a>
-                <a href="#"><span></span>Ingresa</a>
                 <div id="contend-form">
+                    <a href="#"><span></span>Registrate</a>
+                    <a href="#"><span></span>Ingresa</a>
+                
                     <form>
                         <input type="text" placeholder="Buscar">
                         <input type="submit">
                     </form>
                     <div id="user-info">
                         <p>Usuario</p>
-                        <span>Tools</span>
+                        <span>T</span>
                         <figure id="user">
-                            <img src="images/logo.png" />
+                            <img src="images/user.png" />
                         </figure>
                     </div> 
                 </div>
@@ -58,10 +60,33 @@
                     <li><span></span>Trabaja en Lemur</li>
                 </ul>
             </nav> 
-            <section id="contend">
+            <section id="contend">               
+                <div class="categorias">
+                    <h2>Categorías</h2>
+                    <p>Estas son las categorías vigentes para que puedas votar por tus ideas ritas.</p>
+                    <a href="vota-por-una-idea.html" class="link activa">
+                      <div class="contend-img"><img src="images/general.png"></div>
+                      <div class="contend-p"><p>Nombre categoría</p></div>
+                    </a>
+                    <a href="vota-por-una-idea.html" class="link activa">
+                      <div class="contend-img"><img src="images/electrodomesticos.png"></div>
+                      <div class="contend-p"><p>Nombre categoría</p></div>
+                    </a>
+                    <a href="vota-por-una-idea.html" class="link">
+                      <div class="contend-img"><img src="images/hogar.png"></div>
+                      <div class="contend-p"><p>Nombre categoría</p></div>
+                    </a>
+                    <a href="vota-por-una-idea.html" class="link">
+                      <div class="contend-img"><img src="images/herramientas"></div>
+                      <div class="contend-p"><p>Nombre categoría</p></div>
+                    </a>
+                </div>
                 
+
             </section>
-            <footer>
+            
+        </div>
+        <footer>
                 <p>
                     ®2013 Todos los Derechos Reservados Lemur Studio 
                     <a href="mailto:info@lemurstudio.com.co" >info@lemurstudio.com.co</a> 
@@ -70,10 +95,19 @@
                         <img src="images/logomim.png" alt="mi-martinez.com" >
                     </a>
                 </p> 
-            </footer>
-        </div>
-    </body>
+        </footer>
     <!-- JavaScript -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script>
+
+      $("#contend").mCustomScrollbar({
+              scrollButtons:{
+                enable:true
+              }
+            });
+    </script>
+    </body>
+
 </html>
