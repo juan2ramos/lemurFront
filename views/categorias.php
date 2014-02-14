@@ -1,4 +1,4 @@
-				<div class="categorias">
+				        <div class="categorias">
                     <h2>Categorías</h2>
                     <p>Estas son las categorías vigentes para que puedas votar por tus ideas favoritas.</p>
                     <a href="vota-por-una-idea" class="link activa">
