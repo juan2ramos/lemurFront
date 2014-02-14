@@ -79,8 +79,7 @@ header{
 	background: url("../images/engranaje.png") ;
 	display: inline-block;
 	height: 15px;
-	margin-top: 20px;
-	padding: 0 2px;
+	margin: 20px 2px 0;
 	width: 15px;
 }
 
