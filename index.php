@@ -40,13 +40,18 @@
                         <input type="text" placeholder="Buscar">
                         <input type="submit">
                     </form>
-                    <div id="user-info">
-                        <p>Usuario</p>
-                        <span>T</span>
-                        <figure id="user">
-                            <img src="images/user.png" />
-                        </figure>
-                    </div> 
+                    <div id="header-info">
+                        <div id="hours">
+                        </div>
+                        <div id="user-info">
+                            <p>Usuario</p>
+                            <span>T</span>
+                            <figure id="user">
+                                <img src="images/user.png" />
+                            </figure>
+                        </div>    
+                    </div>
+                     
                 </div>
             </header>
             <nav>                
@@ -63,7 +68,7 @@
             <section id="contend">               
                 <div class="categorias">
                     <h2>Categorías</h2>
-                    <p>Estas son las categorías vigentes para que puedas votar por tus ideas ritas.</p>
+                    <p>Estas son las categorías vigentes para que puedas votar por tus ideas favoritas.</p>
                     <a href="vota-por-una-idea.html" class="link activa">
                       <div class="contend-img"><img src="images/general.png"></div>
                       <div class="contend-p"><p>Nombre categoría</p></div>
@@ -90,11 +95,11 @@
                 <p>
                     ®2013 Todos los Derechos Reservados Lemur Studio 
                     <a href="mailto:info@lemurstudio.com.co" >info@lemurstudio.com.co</a> 
-                    - Desarrollado por: 
-                    <a href="http://mi-martinez.com/" target="_blank" title="Diseño Web">
-                        <img src="images/logomim.png" alt="mi-martinez.com" >
-                    </a>
+                    - Desarrollado por:                     
                 </p> 
+                <a href="http://mi-martinez.com/" target="_blank" title="Diseño Web">
+                    <img src="images/logomim.png" alt="mi-martinez.com" >
+                </a>
         </footer>
     <!-- JavaScript -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>

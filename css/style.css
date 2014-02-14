@@ -11,12 +11,20 @@ body{
 	font-family: 'Lato', sans-serif;
 	font-size: 16px;
 }
+body,h2,h3,h4,p{	
+	font-weight: 300
+}
 li{
 	list-style: none;
+}
+ul{
+	margin: 0;
+	padding: 0;
 }
 .wrapper{
 	left:50%;
     margin-left:-480px;
+    padding: 0 10px;
     position: fixed;
 	width: 960px;
 }
@@ -31,16 +39,16 @@ figure#logo, #contend-form , header form, #contend-form>a, figure#user, #user-in
 	vertical-align: top;
 }
 figure#user, #user-info p, #user-info img{
-	vertical-align: bottom;
+	vertical-align: top;
 }
 header{
 	box-sizing:border-box;
-	padding: 20px 0;
+	padding: 53px 0 20px;
 }
 
 #contend-form{
 	text-align: right;
-	width: 737px;
+	width: 677px;
 }
 #contend-form a{
 	color: #fff;
@@ -63,21 +71,30 @@ header{
 	padding-left: 0.5em;
 	width: 25px;
 }
+#header-info{
+	margin-top: 20px;
+}
+#hours{
+	width: 518px
+}
 #user-info{
 	background: rgba(0, 0, 0, 0.5);
 	box-sizing: border-box;
-	margin: 10px 0 0 593px;
-	padding: 2px 8px;
 	text-align: right;
-	width: 145px;
+	width: 140px;
+}
+#hours,#user-info{
+	display: inline-block;
+	vertical-align: top;
 }
 #user-info p{
-	line-height: 2.5em;
+	color: #fff;
+	font-size: 1.1em;
 	margin: 0;
+	line-height: 24px;
 }
 #user img{
-	border: 2px solid #fff;
-	border-radius: 50%;
+
 	max-width: 40px;
 }
 /*=================================================================
@@ -86,9 +103,9 @@ nav
 nav{
 	background: rgba(0, 0, 0, 0.5);
 	display: inline-block;
-	padding: 10px 0;
+	padding: 10px 40px;
 	vertical-align: middle;
-	width: 220px;
+	width: 140px;
 
 }
 nav li {
@@ -96,25 +113,16 @@ nav li {
 	color: #fff;
 	font-weight: 100;
 	padding-bottom: 5px;
-	width: 150px;
+	width: 140px;
 }
 
-/*=================================================================
-Footer
-===================================================================*/
-footer{
-	bottom: 0;
-	left:50%;
-    margin-left:-480px;
-    position: fixed;
-	width: 960px;
-}
+
 /*=================================================================
 Contend
 ===================================================================*/
 #contend{
 	width: 658px;
-	margin: 0 0 0 77px;
+	margin-left:20px;
 	background-color: rgba(0, 0, 0, 0.5);
 	box-sizing: border-box;
 	height: 488px;
@@ -124,17 +132,17 @@ Contend
 }
 #contend h2{
 	color: #FFFFFF;
-	font-size: 33px;
+	font-size: 2.05em;
 }	
 #contend p{
-	margin: 7px 0;
-	text-align: justify;
 	color: #FFFFFF;
-	font-size: 19px;	
-	max-width: 575px;
+	font-size: 19px;
+	margin: 0 0 32px;
+	max-width: 560px;
+	text-align: justify;
 }
-#contend  a.link{
-	width: 575px;
+#contend a.link{
+	width: 560px;
 	min-height: 56px;
 	background-color: #E6AD93;
 	background-color: rgba(206, 92, 39, 0.5);
@@ -158,13 +166,43 @@ Contend
 	-moz-box-sizing: border-box;
 }
 #contend  .contend-p p{
-	font-size: 33px;
+	font-size: 2.05rem;
+	line-height: 2.25em;
 	margin-left: -16px;
 }
 #contend .contend-img, #contend .contend-p {
 	display: inline-block;
+	height: 75px;	
 	vertical-align: middle;
 }
 .categorias{
-	padding: 0 0 20px 35px;
+	padding: 0 0 20px 40px;
+}
+/*=================================================================
+Footer
+===================================================================*/
+footer{
+	background: rgba(0,0,0,0.5);
+	bottom: 0;
+	left:50%;
+    margin-left:-480px;
+    padding: 3px 40px;
+    position: fixed;
+	width: 960px;
+}
+footer a{
+	color:#F7931E;
+}
+footer img{
+	height: 17px;
+	margin-left: 20px
+}
+footer p{
+	color:#E47F1C;
+	font-size: .75rem;
+	margin: 2px
+}
+footer p,footer img{
+	display: inline-block;
+	vertical-align: top;
 }
