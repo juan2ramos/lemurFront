@@ -45,7 +45,9 @@
                         </div>
                         <div id="user-info">
                             <p>Usuario</p>
-                            <span>T</span>
+                            <a href="#">
+                                <span id="engranaje"></span>
+                            </a>
                             <figure id="user">
                                 <img src="images/user.png" />
                             </figure>

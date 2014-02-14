@@ -71,6 +71,18 @@ header{
 	padding-left: 0.5em;
 	width: 25px;
 }
+#engranaje{
+	background: url("http://localhost/lemurFront/css/../images/engranaje.png") no-repeat left top;
+	display: inline-block;
+	height: 15px;
+	margin-top: 20px;
+	padding: 0 2px;
+	width: 15px;
+}
+
+#engranaje:hover{
+	background-position: 0 -15px;
+}
 #header-info{
 	margin-top: 20px;
 }
@@ -87,9 +99,12 @@ header{
 	display: inline-block;
 	vertical-align: top;
 }
+#user-info a{
+	text-decoration: none;
+}
 #user-info p{
 	color: #fff;
-	font-size: 1.1em;
+	font-size: 1.2em;
 	margin: 0;
 	line-height: 24px;
 }
