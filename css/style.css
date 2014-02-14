@@ -41,6 +41,9 @@ figure#logo, #contend-form , header form, #contend-form>a, figure#user, #user-in
 figure#user, #user-info p, #user-info img{
 	vertical-align: top;
 }
+#contend-form form{
+	margin-top: 3px;
+}
 header{
 	box-sizing:border-box;
 	padding: 53px 0 20px;
@@ -55,24 +58,25 @@ header{
 	font-size: 1em;
 	font-weight: 100;
 }
-#contend-form input{
+#contend-form input[type="text"]{
 	border: none;	
 	box-sizing: border-box;
 	font-size: 0.7em;
 	height: 15px;
-	padding-left: 0.5em;
-	width: 125px;
+	margin: 2px 0 0 -3px ;
+	vertical-align: text-top;
+	width: 120px;
 }
 #contend-form input[type="submit"]{
+	background: url("../images/search.jpg") ;
 	border: none;	
-	box-sizing: border-box;
-	font-size: 0.7em;
+	box-sizing: border-box;	
 	height: 15px;
-	padding-left: 0.5em;
-	width: 25px;
+	margin: 2px 0 0 -3px ;
+	width: 20px;
 }
 #engranaje{
-	background: url("http://localhost/lemurFront/css/../images/engranaje.png") no-repeat left top;
+	background: url("../images/engranaje.png") ;
 	display: inline-block;
 	height: 15px;
 	margin-top: 20px;
@@ -89,9 +93,27 @@ header{
 #hours{
 	width: 518px
 }
+#img-ingresar,#img-registrar{
+	background: url("../images/ingresar.png") no-repeat left bottom;
+	height: 20px;
+	width: 97px;
+}
+#img-registrar{
+	background: url("../images/registrar.png") no-repeat left top;
+
+}
+#img-ingresar:hover{
+	background-position: 0 1px;
+}
+#img-registrar:hover{
+	background-position: 0 -22px;
+
+}
+
 #user-info{
 	background: rgba(0, 0, 0, 0.5);
 	box-sizing: border-box;
+	margin-bottom: 2px;
 	text-align: right;
 	width: 140px;
 }

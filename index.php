@@ -33,12 +33,12 @@
                     <img src="images/logo.png" />
                 </figure>
                 <div id="contend-form">
-                    <a href="#"><span></span>Registrate</a>
-                    <a href="#"><span></span>Ingresa</a>
-                
+                    <a href="#" id="img-registrar"></a>
+                    <a href="#" id="img-ingresar"></a>
+        
                     <form>
                         <input type="text" placeholder="Buscar">
-                        <input type="submit">
+                        <input type="submit" value="">
                     </form>
                     <div id="header-info">
                         <div id="hours">
@@ -46,7 +46,7 @@
                         <div id="user-info">
                             <p>Usuario</p>
                             <a href="#">
-                                <span id="engranaje"></span>
+                            <span id="engranaje"></span>
                             </a>
                             <figure id="user">
                                 <img src="images/user.png" />
