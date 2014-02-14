@@ -423,3 +423,50 @@ sube tu idea
    color: #fff; 
    font-style: italic; 
 }
+/*=================================================================
+vota por una idea
+===================================================================*/
+
+.vota-por-una-idea{
+	padding: 0 0 20px 40px;
+}
+.vota-por-una-idea li{
+	z-index: 4;
+	width: 259px;
+	border-style: none;
+	border-color: transparent;
+	position: relative;
+	background: #961A1D url("../images/bombillo.jpg") no-repeat center top;
+	display: inline-block;
+	margin: 17px 40px 28px 0;
+}	
+.izq, .der{
+	display: inline-block;
+	margin-top: 158px;
+	width: 75px;
+	min-height: 36px;
+	opacity: 0.8;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	filter: alpha(opacity=80);
+	padding-left: 53px;
+	padding-top: 2px;
+	text-align: left;
+	font-size: 26px;
+	color: #FFFFFF;
+	letter-spacing: -1px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	cursor: pointer
+}
+.izq:hover,.der:hover{
+	background-color: #A4271E;
+}	
+.der{
+	background: #F8981C url("../images/voto.png") no-repeat left top;
+}
+.izq{
+	background: #F8981C url("../images/vota2.png") no-repeat left top;
+}
+.vota-por-una-idea li:nth-child(2n){
+	margin-right: 0;
+}
