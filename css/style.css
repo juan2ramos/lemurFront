@@ -242,70 +242,11 @@ network
 #network li:hover{
 	opacity: 1;
 }
-/*=================================================================
-Contend
-===================================================================*/
-#contend{
-	width: 658px;
-	margin-left:20px;
-	background-color: rgba(0, 0, 0, 0.5);
-	box-sizing: border-box;	
-	-moz-box-sizing: border-box;
-	height: 488px;
-	display: inline-block;
-	vertical-align: top;
-}
-#contend h2{
-	color: #FFFFFF;
-	font-size: 2.05em;
-}	
-#contend p{
-	color: #FFFFFF;
-	font-size: 19px;
-	margin: 0 0 32px;
-	max-width: 560px;
-	text-align: justify;
-}
-#contend a.link{
-	width: 560px;
-	min-height: 56px;
-	background-color: #E6AD93;
-	background-color: rgba(206, 92, 39, 0.5);
-	text-align: left;
-	color: #FFFFFF;
-	font-size: 33px;
-	margin-top: 14px;
-	display: block;
-	box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	text-decoration: none;
 
-}
-#contend  .contend-img{
-	line-height: 40px;
-	text-align: center;
-	width: 100px;
-	padding: 15px 0;
-	height: 74px;
-	box-sizing: border-box;
-	-moz-box-sizing: border-box;
-}
-#contend  .contend-p p{
-	font-size: 2.05rem;
-	line-height: 2.25em;
-	margin-left: -16px;
-}
-#contend .contend-img, #contend .contend-p {
-	display: inline-block;
-	height: 75px;	
-	vertical-align: middle;
-}
-.categorias{
-	padding: 0 0 20px 40px;
-}
 /*=================================================================
 Footer
 ===================================================================*/
+
 footer{
 	background: rgba(0,0,0,0.5);
 	bottom: 0;
@@ -333,4 +274,152 @@ footer p{
 footer p,footer img{
 	display: inline-block;
 	vertical-align: top;
+}
+/*=================================================================
+Contend
+===================================================================*/
+#contend{
+	background-color: rgba(0, 0, 0, 0.5);
+	display: inline-block;
+	box-sizing: border-box;	
+	-moz-box-sizing: border-box;
+	height: 488px;
+	margin-left:20px;
+	vertical-align: top;
+	width: 658px;
+}
+#contend h2{
+	color: #FFFFFF;
+	font-size: 2.05em;
+}	
+#contend p{
+	color: #FFFFFF;
+	font-size: 19px;
+	margin: 0 0 32px;
+	max-width: 560px;
+	text-align: justify;
+}
+/*=================================================================
+Categorias
+===================================================================*/
+#contend a.link{
+	background-color: #E6AD93;
+	background-color: rgba(206, 92, 39, 0.5);
+	color: #FFFFFF;
+	font-size: 33px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	display: block;
+	margin-top: 14px;
+	min-height: 56px;
+	text-align: left;
+	text-decoration: none;
+	width: 560px;
+
+}
+#contend  .contend-img{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	height: 74px;
+	line-height: 40px;
+	padding: 15px 0;
+	text-align: center;
+	width: 100px;
+}
+#contend  .contend-p p{
+	font-size: 2.05rem;
+	line-height: 2.25em;
+	margin-left: -16px;
+}
+#contend .contend-img, #contend .contend-p {
+	display: inline-block;
+	height: 75px;	
+	vertical-align: middle;
+}
+.categorias{
+	padding: 0 0 20px 40px;
+}
+/*=================================================================
+sube tu idea
+===================================================================*/
+.sube-tu-idea .show-captcha, .sube-tu-idea .captcha, .sube-tu-idea .sumbit{
+	background-color: rgba(0, 0, 0, 0.5);
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	display: inline-block;
+	color: #fff;
+	font-weight: 100;
+	height: 45px;
+	margin-right: 8px;
+	text-align: center;
+	vertical-align: middle;
+	width: 155px;
+}
+.sube-tu-idea{
+	padding: 0 0 20px 40px;
+}
+.sube-tu-idea input{
+	background-color: rgba(255, 255, 255, 0.5);
+	border:none;
+	color: #fff;
+	display: block;
+	height: 27px;
+	margin: 13px 3px;
+	padding: 0 8px;
+	width: 540px;
+}
+
+.sube-tu-idea label{
+	color: #fff;
+	font-size: 18px;
+}
+.sube-tu-idea .captcha {
+	line-height: 46px;
+	margin-right: 77px
+}
+.sube-tu-idea .imagen{
+	background-color: rgba(0, 0, 0, 0.26);
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	height: 150px;
+	padding: 82px;
+	width: 557px;
+}
+.sube-tu-idea .imagen::-webkit-input-placeholder {
+
+   font-style: normal;
+}
+
+.sube-tu-idea .imagen::-moz-placeholder {
+   color: #fff;  
+   font-style: normal;
+}
+
+.sube-tu-idea .imagen:-ms-input-placeholder {  
+   color: #fff; 
+   font-style: normal; 
+}
+.sube-tu-idea .text{
+	height: 96px
+}
+.sube-tu-idea .sumbit{
+	cursor: pointer;
+	height: 25px;
+}
+.sube-tu-idea .sumbit:hover{
+	background:  rgba(255, 2, 2, 0.3)
+}
+.sube-tu-idea ::-webkit-input-placeholder {
+   color: #fff;
+   font-style: italic;
+}
+
+.sube-tu-idea ::-moz-placeholder { 
+   color: #fff;  
+   font-style: italic;
+}
+
+.sube-tu-idea :-ms-input-placeholder {  
+   color: #fff; 
+   font-style: italic; 
 }

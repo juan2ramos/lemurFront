@@ -30,7 +30,7 @@
         <div class="wrapper">
             <header>
                 <figure id="logo">
-                    <a href="index.php"><img src="images/logo.png" /></a>
+                    <a href="categorias"><img src="images/logo.png" /></a>
                 </figure>
                 <div id="contend-form">
                     <a href="#" id="img-registrar"></a>
@@ -59,43 +59,43 @@
             <nav>                
                 <ul>
                     <li>
-                        <a href="#" id="sube">                           
+                        <a href="sube-tu-idea" id="sube">                           
                             <p>Sube tu idea</p>
                         </a>
                     </li>
                     <li>
-                        <a href="#" id="vota">                           
+                        <a href="categorias" id="vota">                           
                             <p>Vota por una idea</p>
                         </a>
                     </li>
                     <li>
-                        <a href="#" id="preguntas">
+                        <a href="preguntas" id="preguntas">
                             <p>Tienes Preguntas?</p>                           
                         </a>
                     </li>
                     <li>
-                        <a href="#" id="productos">    
+                        <a href="http://store.lemurstudio.com/" id="productos">    
                             <p>Productos para ti</p>                           
                         </a>
                     </li>
                     <li>
-                        <a href="#" id="contacto">                           
+                        <a href="contacto" id="contacto">                           
                            <p>Contáctanos</p>
                         </a>
                     </li>
                     <li>
-                        <a href="#" id="servicios">                           
+                        <a href="servicios" id="servicios">                           
                             <p>Servicios</p>
                         </a>
                     </li>
                     <li>
-                        <a href="#" id="trabaja">
+                        <a href="trabaja-en-lemur" id="trabaja">
                             <p>Trabaja en Lemur</p>                           
                         </a>                        
                     </li>
                 </ul>                
             </nav> 
-            <section id="contend">               
+            <section id="contend" >               
                 <?php require_once $fileName; ?>
            </section>
             <ul id="network">
