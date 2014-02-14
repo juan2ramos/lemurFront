@@ -427,23 +427,24 @@ sube tu idea
 vota por una idea
 ===================================================================*/
 
-.vota-por-una-idea{
-	padding: 0 0 20px 40px;
+.der{
+	background: #F8981C url("../images/voto.png") no-repeat left top;
 }
-.vota-por-una-idea li{
-	z-index: 4;
-	width: 259px;
-	border-style: none;
-	border-color: transparent;
-	position: relative;
-	background: #961A1D url("../images/bombillo.jpg") no-repeat center top;
-	display: inline-block;
-	margin: 17px 40px 28px 0;
+.der:hover,.izq:hover{
+	background-color: #A4271E;
 }	
-.izq, .der{
+.izq{
+	background: #F8981C url("../images/vota2.png") no-repeat left top;
+}
+.izq, .der{	
+	color: #FFFFFF;
+	cursor: pointer;
 	display: inline-block;
+	font-family: 'Lato', sans-serif;
+	font-size: 26px;
+	font-weight: 300;
+	letter-spacing: -1px;
 	margin-top: 158px;
-	width: 75px;
 	min-height: 36px;
 	opacity: 0.8;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
@@ -451,21 +452,20 @@ vota por una idea
 	padding-left: 53px;
 	padding-top: 2px;
 	text-align: left;
-	font-size: 26px;
-	color: #FFFFFF;
-	letter-spacing: -1px;
-	font-family: 'Lato', sans-serif;
-	font-weight: 300;
-	cursor: pointer
+	width: 75px;
 }
-.izq:hover,.der:hover{
-	background-color: #A4271E;
-}	
-.der{
-	background: #F8981C url("../images/voto.png") no-repeat left top;
+.vota-por-una-idea{
+	padding: 0 0 20px 40px;
 }
-.izq{
-	background: #F8981C url("../images/vota2.png") no-repeat left top;
+.vota-por-una-idea li{
+	background: #961A1D url("../images/bombillo.jpg") no-repeat center top;
+	display: inline-block;
+	border-style: none;
+	border-color: transparent;
+	margin: 17px 40px 28px 0;
+	position: relative;
+	width: 259px;
+	z-index: 4;
 }
 .vota-por-una-idea li:nth-child(2n){
 	margin-right: 0;
