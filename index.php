@@ -112,7 +112,7 @@
                       <div class="contend-p"><p>Nombre categoría</p></div>
                     </a>
                     <a href="vota-por-una-idea.html" class="link">
-                      <div class="contend-img"><img src="images/herramientas"></div>
+                      <div class="contend-img"><img src="images/herramientas.png"></div>
                       <div class="contend-p"><p>Nombre categoría</p></div>
                     </a>
                 </div> 
