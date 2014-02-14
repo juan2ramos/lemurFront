@@ -548,3 +548,18 @@ Servicios
 	display: inline-block;
 	vertical-align: top;
 }
+/*=================================================================
+Trabaje en lemur
+===================================================================*/
+.trabaj-en-lemur{
+	padding: 0 0 20px 40px;	
+}
+.trabaj-en-lemur input{
+	width: 250px	
+}
+/*=================================================================
+terminos y condiciones
+===================================================================*/
+.terminos-y-condiciones{
+	padding: 0 0 20px 40px;	
+}
