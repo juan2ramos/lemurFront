@@ -93,7 +93,7 @@
                             <p>Trabaja en Lemur</p>                           
                         </a>                        
                     </li>
-                </ul>
+                </ul>                
             </nav> 
             <section id="contend">               
                 <div class="categorias">
@@ -115,11 +115,19 @@
                       <div class="contend-img"><img src="images/herramientas"></div>
                       <div class="contend-p"><p>Nombre categoría</p></div>
                     </a>
-                </div>
-                
-
-            </section>
-            
+                </div> 
+           </section>
+            <ul id="network">
+                    <li>
+                        <a href="#"><img src="images/signo.png"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/facebook.png"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/twitter.png"></a>
+                    </li>
+            </ul> 
         </div>
         <footer>
                 <p>
