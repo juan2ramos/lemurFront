@@ -30,7 +30,7 @@
         <div class="wrapper">
             <header>
                 <figure id="logo">
-                    <img src="images/logo.png" />
+                    <a href="index.php"><img src="images/logo.png" /></a>
                 </figure>
                 <div id="contend-form">
                     <a href="#" id="img-registrar"></a>
