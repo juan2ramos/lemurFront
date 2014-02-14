@@ -645,6 +645,31 @@ p#p-picture{
    font-style: italic; 
 }
 /*=================================================================
+preguntas
+===================================================================*/
+.preguntas{
+	padding: 0 0 20px 40px;	
+}
+.preguntas a{
+	background: url(../images/more.png) no-repeat 0 0;
+	color: #fff;
+	font-size: 1.1em;
+	padding: 0 30px;
+	text-decoration: none;
+}
+.preguntas dd{
+	color: #fff;
+	display: block;
+	margin: 5px 20px;
+	text-align: justify;	
+}
+.preguntas dt{
+
+	padding: 10px 0;
+	
+}
+
+/*=================================================================
 terminos y condiciones
 ===================================================================*/
 .terminos-y-condiciones{
