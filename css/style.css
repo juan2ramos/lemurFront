@@ -549,13 +549,100 @@ Servicios
 	vertical-align: top;
 }
 /*=================================================================
-Trabaje en lemur
+Trabaja en lemur
 ===================================================================*/
-.trabaj-en-lemur{
+.trabaja-en-lemur{
 	padding: 0 0 20px 40px;	
 }
-.trabaj-en-lemur input{
+.trabaja-en-lemur input{
 	width: 250px	
+}
+/*=================================================================
+Perfil
+===================================================================*/
+
+#profile-picture p{
+	font-size: 1.2em;
+	margin: 0;
+}
+
+.perfil{
+	padding: 0 0 20px 40px;	
+}
+.perfil figure{
+ 	background: rgba(255, 255, 255, 0.5);
+ 	height: 130px;
+ 	width: 130px;
+}
+.perfil figure, #contend-picture{
+	display: inline-block;
+	vertical-align: top;
+}
+.perfil figure img{
+	display: block;
+	margin: 4px auto;
+	padding-top: 20px;
+	width: 87px;
+}
+.perfil h3{
+	color: #fff;
+}
+.perfil input[type="file"]{
+	background: rgba(0, 0, 0, 0.5);
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	font-weight: 100;
+	margin: 0 20px;
+	width: 308px;
+}
+.perfil input[type="text"]{
+	background-color: rgba(255, 255, 255, 0.5);
+	border:none;
+	color: #fff;
+	display: inline-block;
+	height: 27px;
+	margin: 13px 20px 13px 0;
+	padding: 0 8px;
+	width: 250px;
+}
+.perfil input[type="text"].text{
+	height: 100px;
+	width: 540px;
+}
+.perfil input[type="submit"]{
+	background: rgba(0, 0, 0, 0.5);
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	font-weight: 100;
+	left: 360px;
+	margin: 25px 0;
+	padding: 3px;
+	position: relative;
+	width: 200px;	
+}
+.perfil input[type="submit"]:hover{	
+	background: #961A1D;
+}
+p#p-picture{
+	font-size: 0.95em;
+	max-width: 410px;
+	padding: 10px 20px 19px;
+}
+.perfil ::-webkit-input-placeholder {
+   color: #fff;
+   font-style: italic;
+}
+
+.perfil ::-moz-placeholder { 
+   color: #fff;  
+   font-style: italic;
+}
+
+.perfil :-ms-input-placeholder {  
+   color: #fff; 
+   font-style: italic; 
 }
 /*=================================================================
 terminos y condiciones

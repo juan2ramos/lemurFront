@@ -45,7 +45,7 @@
                         </div>
                         <div id="user-info">
                             <p>Usuario</p>
-                            <a href="#">
+                            <a href="perfil">
                                 <span id="engranaje"></span>
                             </a>
                             <figure id="user">
