@@ -12,7 +12,7 @@ try{
     $fileName =isset($_GET['url'])?$urlVista . $_GET['url'] . '.php':$urlVista . 'categorias.php';
     
     if(is_readable($fileName)){
-        $title = $_GET['url'];
+        $title = str_replace("-", " ", $_GET['url']);        
         require_once ROOT . 'layout' .DS . 'default.php';               
     }else {
         throw new Exception("Error 404 pagina no existe: ". $_GET['url'] , 1);         
