@@ -142,20 +142,85 @@ nav
 nav{
 	background: rgba(0, 0, 0, 0.5);
 	display: inline-block;
-	padding: 10px 40px;
+	padding: 19px 40px 20px;;
 	vertical-align: middle;
-	width: 140px;
 
 }
 nav li {
-	border-bottom: 1px solid #fff;
-	color: #fff;
+	border-bottom: 1px solid #D3D3D3;
 	font-weight: 100;
-	padding-bottom: 5px;
+	padding-bottom: 2px;
 	width: 140px;
 }
 
+nav a{
+	background-position: 0 0;
+	color: #fff;
+	display: block;
+	height: 33px;
+	padding-left: 22px;
+	text-decoration: none;
+	width: 140px;
+}
+nav a:hover{
+	color: #E47F1C
+}
+nav p{
+	font-size: 0.95em;
+	margin: 0;
+	padding: 7px 0 0 4px;
+}
+#contacto{
+	background:url("../images/contacto.png") -7px 0
+}
+#preguntas{
+	background: url("../images/preguntas.png") -8px 0
+}
+#productos{
+	background: url("../images/productos.png") -9px 0
+}
+#servicios{
+	background: url("../images/servicios.png") -6px 0
+}
+#sube{
+	background: url("../images/sube.png") -7px 0
+}
+#trabaja{
+	background: url("../images/trabaja.png") -7px 0
+}
+#vota{
+	background: url("../images/vota.png") -7px 0
+}
 
+
+
+#contacto:hover{
+	background:url("../images/contacto.png") -7px -34px
+}
+#preguntas:hover{
+	background: url("../images/preguntas.png") -8px 34px
+
+}
+#productos:hover{
+	background: url("../images/productos.png") -9px 34px
+
+}
+#servicios:hover{
+	background: url("../images/servicios.png") -6px 34px
+
+}
+#sube:hover{
+	background: url("../images/sube.png") -7px 34px
+
+}
+#trabaja:hover{
+	background: url("../images/trabaja.png") -7px 34px
+
+}
+#vota:hover{
+	background: url("../images/vota.png") -7px 34px
+
+}
 /*=================================================================
 Contend
 ===================================================================*/

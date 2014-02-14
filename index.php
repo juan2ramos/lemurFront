@@ -46,7 +46,7 @@
                         <div id="user-info">
                             <p>Usuario</p>
                             <a href="#">
-                            <span id="engranaje"></span>
+                                <span id="engranaje"></span>
                             </a>
                             <figure id="user">
                                 <img src="images/user.png" />
@@ -58,13 +58,41 @@
             </header>
             <nav>                
                 <ul>
-                    <li><span></span>Sube tu idea</li>
-                    <li><span></span>Vota por una idea</li>
-                    <li><span></span>Tienes Preguntas?</li>
-                    <li><span></span>Productos para ti</li>
-                    <li><span></span>Contáctanos</li>
-                    <li><span></span>Servicios</li>
-                    <li><span></span>Trabaja en Lemur</li>
+                    <li>
+                        <a href="#" id="sube">                           
+                            <p>Sube tu idea</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" id="vota">                           
+                            <p>Vota por una idea</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" id="preguntas">
+                            <p>Tienes Preguntas?</p>                           
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" id="productos">    
+                            <p>Productos para ti</p>                           
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" id="contacto">                           
+                           <p>Contáctanos</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" id="servicios">                           
+                            <p>Servicios</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" id="trabaja">
+                            <p>Trabaja en Lemur</p>                           
+                        </a>                        
+                    </li>
                 </ul>
             </nav> 
             <section id="contend">               
