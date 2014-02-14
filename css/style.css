@@ -528,3 +528,23 @@ Contacto
 .contact-form input[type="submit"]:hover{	
 	background: #961A1D;
 }
+/*=================================================================
+Servicios
+===================================================================*/
+.servicios{
+	padding: 0 0 20px 40px;
+}
+.servicios h3{
+	color: #fff;
+	margin: 0 0 4px;
+}
+.servicios figure{
+	margin: 33px 14px 0 0;
+}
+.servicios p{
+	width: 490px;
+}
+.servicios figure, .servicios .contend-service {
+	display: inline-block;
+	vertical-align: top;
+}
