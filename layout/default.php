@@ -42,9 +42,33 @@
                         <input type="submit" value="">
                     </form>
                     <div id="header-info">
+                        <?php if ($url == "vota-por-una-idea" || $url == "detalle-idea"): 
+                            $modify = "";
+                        ?>    
+                            <img src="images/cronometro.png" class="img-cronos">
+                        <?php endif;?>
                         <div id="hours">
+                            <?php if ($url == "vota-por-una-idea" || $url == "detalle-idea") :?>
+                            <dl>
+                                <div class="dt">
+                                    <dt>días</dt>
+                                    <dd> 12<span>:</span></dd> 
+                                </div>
+                                <div class="dt">
+                                    <dt>horas</dt>
+                                    <dd>08<span>:</span></dd> 
+                                </div>    
+                                <div class="dt">    
+                                    <dt>min.</dt>
+                                    <dd>35<span>:</span></dd> 
+                                </div>    
+                                <div class="dt">    
+                                <dt>seg.</dt>
+                                <dd>55</dd> 
+                            </dl>
+                            <?php endif;?>
                         </div>
-                        <div id="user-info">
+                        <div id="user-info" class="<?php echo $modify;?>">
                             <p>Usuario</p>
                             <a href="perfil">
                                 <span id="engranaje"></span>

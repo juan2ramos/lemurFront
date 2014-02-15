@@ -31,30 +31,6 @@ ul{
 /*=================================================================
 header
 ===================================================================*/
-dd{
-	font-size: 2.5em;
-}
-dl{
-	margin: 0;
-	text-align: left;
-	color: #fff;
-}
-dt{
-	font-size: 0.8em;
-}
-dd,dt {
-  display: block;
-  margin: 0;
-  text-align: center;
-}
-
-.dt{
-	display: inline-block;
-}
-
-.img-cronos {
-	padding-bottom: 6px
-}
 
 figure#logo{
 	width: 220px;
@@ -74,7 +50,22 @@ header{
 	-moz-box-sizing: border-box;
 	padding: 53px 0 20px;
 }
-
+header dd{
+	font-size: 2.5em;
+}
+header dl{
+	margin: 0;
+	text-align: left;
+	color: #fff;
+}
+header dt{
+	font-size: 0.8em;
+}
+header dd, header dt {
+  display: block;
+  margin: 0;
+  text-align: center;
+}
 #contend-form{
 	text-align: right;
 	width: 677px;
@@ -163,6 +154,12 @@ header{
 #user img{
 
 	max-width: 40px;
+}
+.dt{
+	display: inline-block;
+}
+.img-cronos {
+	padding-bottom: 6px
 }
 /*=================================================================
 nav
@@ -866,6 +863,10 @@ popUp
 	display: block;
 	margin: 35px 0;
 }
+.popUp-container .form a:hover{
+	color: rgba(255,255,255,.5);
+
+}
 .popUp-container .form p{
 	color: #fff;
 	margin: 10px 0;
@@ -910,6 +911,9 @@ popUp
 #registra-cuenta .form .term a{
 	margin:0 5px;
 }
+#registra-cuenta .form a:hover{
+	color: rgba(255,255,255,.5);
+}
 .popUp-container #registra-cuenta  input{
 	border-color: #FFD000;
 }
@@ -921,4 +925,7 @@ State
 }
 .hidden{
 	display: none;
+}
+.modify{
+	margin-top: 20px;
 }

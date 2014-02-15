@@ -21,6 +21,16 @@
 			      	<input type="text" class="half" placeholder="Apellidos">
 			      	<input type="text" class="half" placeholder="Correo electrónico">
 			      	<input type="text" class="half" placeholder="Nombre de usuario">
+
+			      	<input type="text" class="half" placeholder="edad">
+			      	<input type="text" class="half" placeholder="genero">
+			      	<input type="text" class="half" placeholder="ocupación">
+			      	<input type="text" class="half" placeholder="nivel de estudios">
+			      	<input type="text" class="half" placeholder="intereses">
+			      	<input type="text" class="half" placeholder="Apellidos">
+			      	<input type="text" class="half" placeholder="país">
+			      	<input type="text" class="half" placeholder="cuidad">
+
 			      	<input type="text" class="half" placeholder="Nueva contraseña">
 			      	<input type="text" class="half" placeholder="confirmar nueva contraseña">
 
