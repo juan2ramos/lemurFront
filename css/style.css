@@ -735,12 +735,13 @@ popUp
 
 	border: none;
 	background: rgba(0, 0, 0, 0.3);
+	font-size: 17px;
 	margin: 35px 0;
-	padding: 1px 0 5px;
+	padding: 4px 0 5px;
 	width: 140px;
 }
 .form-net input[type='submit']:hover{
-	background: #961A1D;
+	background: none repeat scroll 0% 0% rgba(248,152,28, 0.4);
 }
 .popUp-container .form-net li a{
 	margin: 0
