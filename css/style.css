@@ -499,7 +499,7 @@ Contacto
 .contact-form .message-span{
     color: #A7A7A7;
     display: inline-block;
-    font-size: 0.8em;
+    font-size: 14px;
     font-style: italic;
     text-align: right;
     width: 374px;
@@ -511,7 +511,8 @@ Contacto
 	width: 560px;
 }
 .contact-form .width-span{	   
-	margin-top: 12px;
+	margin-top: 5px;
+	font-size: 14px;
 	width: 560px;
 }
 .contact-form input[type="submit"]{
@@ -618,6 +619,7 @@ Perfil
 	color: #fff;
 	cursor: pointer;
 	font-weight: 100;
+	font-size: 17px;
 	left: 360px;
 	margin: 25px 0;
 	padding: 3px;
@@ -625,7 +627,7 @@ Perfil
 	width: 200px;	
 }
 .perfil input[type="submit"]:hover{	
-	background: #961A1D;
+	background: rgba(151, 26, 30, 0.4);
 }
 p#p-picture{
 	font-size: 0.95em;

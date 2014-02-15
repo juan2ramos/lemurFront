@@ -12,6 +12,6 @@
 		        <input class="text" type="text">
 		        <span class="message-span width-span">¡Gracias por escribirnos! Te responderemos cuanto antes</span>
 
-		        <input class="sumbit" type="submit" value="Envianos tu mensaje">
+		        <input class="sumbit" type="submit" value="Envíanos tu mensaje">
 		      </form>
 		    </div>

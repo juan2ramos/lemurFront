@@ -1,5 +1,5 @@
 			<div class="trabaja-en-lemur">
-		      <h2>Contáctanos</h2>
+		      <h2>Trabaja en Lemur Studio</h2>
 		      <p>
 			      Nuestro equipo es lo mejor de lo mejor, no nos importa tus años de experiencia, 
 			      tu edad ni tu religión, nos importa la pasión con la que seas capaz de trabajar, 
