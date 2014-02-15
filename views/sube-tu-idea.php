@@ -1,6 +1,6 @@
 			<div class="sube-tu-idea">
 		      <h2>Sube tu idea</h2>
-		      <p>Sube tu idea de producto ya! y participa, dentro de poco podrías verla en las tiendas!</p>
+		      <p>Sube tu idea de producto ya y participa, dentro de poco podrías verla en las tiendas!</p>
 		      <form>
 		        <label>Dale un título a tu idea</label>
 		        <input placeholder="(con 2 o 3 palabras bastará)"class="" type="text">
@@ -12,7 +12,7 @@
 		        <input placeholder="(cuentanos del problema)"class="text" type="text">
 		        <label>Describe cómo solucionaste el problema</label>
 		        <input placeholder="(¿Cúal es tu solución?)"class="text" type="text">
-		        <label>Sube tu imagen o link de tu vídeo aquí !</label>
+		        <label>Sube tu imagen o link de tu vídeo aquí</label>
 		        <input placeholder="(Arrastra imágenes aquí o cárgalas desde tu ordenador)"class="imagen" type="text">
 		        <label>Agregar vinculo de video</label>
 		        <input placeholder="http://"class="" type="text">
