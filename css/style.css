@@ -356,6 +356,7 @@ Categorias
 	display: block;
 	margin-top: 14px;
 	min-height: 56px;
+	position: relative;
 	text-align: left;
 	text-decoration: none;
 	width: 560px;
@@ -379,6 +380,11 @@ Categorias
 	display: inline-block;
 	height: 75px;	
 	vertical-align: middle;
+}
+.activa{
+	position: absolute;
+	right: 15px;
+	top: -3px;
 }
 .categorias{
 	padding: 10px 0 30px 40px;
