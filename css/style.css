@@ -337,7 +337,7 @@ Categorias
 	vertical-align: middle;
 }
 .categorias{
-	padding: 0 0 20px 40px;
+	padding: 10px 0 30px 40px;
 }
 /*=================================================================
 sube tu idea
@@ -653,7 +653,7 @@ preguntas
 .preguntas a{
 	background: url(../images/more.png) no-repeat 0 0;
 	color: #fff;
-	font-size: 1.1em;
+	font-size: 1.2em;
 	padding: 0 30px;
 	text-decoration: none;
 }
