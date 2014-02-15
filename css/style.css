@@ -637,11 +637,11 @@ Perfil
 	cursor: pointer;
 	font-weight: 100;
 	font-size: 17px;
-	margin: 10px 0;
-	padding: 3px;
 	float: left;
+	margin: 25px 0;
+	padding: 3px;
 	position: relative;
-	width: 170px;	
+	width: 200px;	
 }
 .perfil input[type="submit2"]:hover{	
 	background: rgba(151, 26, 30, 0.4);
