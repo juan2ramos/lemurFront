@@ -404,10 +404,11 @@ sube tu idea
 }
 .sube-tu-idea .sumbit{
 	cursor: pointer;
-	height: 25px;
+	height: 35px;
+	font-size: 19px;
 }
 .sube-tu-idea .sumbit:hover{
-	background:  rgba(255, 2, 2, 0.3)
+	background:  rgba(150, 26, 29, 0.3)
 }
 .sube-tu-idea ::-webkit-input-placeholder {
    color: #fff;
