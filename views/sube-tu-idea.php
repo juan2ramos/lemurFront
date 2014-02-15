@@ -12,9 +12,9 @@
 		        <input placeholder="(cuentanos del problema)"class="text" type="text">
 		        <label>Describe cómo solucionaste el problema</label>
 		        <input placeholder="(¿Cúal es tu solución?)"class="text" type="text">
-		        <label>Sube tu imagen o link de tu vídeo Aquí !</label>
+		        <label>Sube tu imagen o link de tu vídeo aquí !</label>
 		        <input placeholder="(Arrastra imágenes aquí o cárgalas desde tu ordenador)"class="imagen" type="text">
-		        <label>Agregar Vinculo de video</label>
+		        <label>Agregar vinculo de video</label>
 		        <input placeholder="http://"class="" type="text">
 		        <div class="show-captcha">
 		          
@@ -22,6 +22,6 @@
 		        <div class="captcha">
 		            <span>CAPTCHA</span>
 		        </div>
-		        <input class="sumbit" type="submit">
+		        <input class="sumbit" type="submit" value="Envía tu idea">
 		      </form>
 		    </div>
