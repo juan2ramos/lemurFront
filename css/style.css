@@ -675,3 +675,133 @@ terminos y condiciones
 .terminos-y-condiciones{
 	padding: 0 0 20px 40px;	
 }
+/*=================================================================
+popUp
+===================================================================*/
+
+#close{
+	cursor: pointer;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+}
+#popUp-contend{
+	background: #961A1D url("http://localhost/lemurFront/css/../images/pattern.jpg") repeat left top;
+	height: 290px;
+	left: 50%;
+	margin: -145px -330px;
+	position: fixed;
+	top: 50%;
+	width: 660px;
+}	
+#popUp-contend h2{
+	margin: 0;
+	color: #fff;
+	font-size: 2.1em;	
+}
+
+.popUp-container{
+	background: rgba(0,0,0,.5);
+	display: none;
+	left: 0;
+	min-height: 100%;
+	min-width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 100;
+}
+.form{
+	display: inline-block;
+	vertical-align: top;
+	padding: 50px 0;
+	width: 400px;
+}
+.form-net{
+	padding: 65px 20px;
+	width: 100px;
+}
+.form-net li{
+	display: inline-block;
+	margin-right: 10px;
+}
+.form-net li img{
+	opacity: 0.5;
+}
+.form-net li img:hover{
+	opacity: 1;
+}
+.form-net input[type='submit']{
+
+	border: none;
+	background: rgba(0, 0, 0, 0.3);
+	margin: 35px 0;
+	padding: 1px 0 5px;
+	width: 140px;
+}
+.form-net input[type='submit']:hover{
+	background: #961A1D;
+}
+.popUp-container .form-net li a{
+	margin: 0
+}
+.popUp-container .form a{
+	color: #fff;
+	display: block;
+	margin: 35px 0;
+}
+.popUp-container .form p{
+	color: #fff;
+	margin: 10px 0;
+}
+.popUp-container label{
+	color: #fff;
+	display: inline-block;
+	font-size: 1.1em;
+	margin-bottom: 18px;
+	width: 160px;
+}
+.popUp-container input{
+	background: none;
+	border-color: #BF3328;
+	border-width: 0px 0px 1px;
+	color: #fff;
+	width: 230px;
+}
+.popUp-container #popUp-contend{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	padding: 35px;
+	font-weight: 100;
+}
+#registra-cuenta .form{
+	padding: 10px 0;
+}
+#registra-cuenta  label {
+	margin-bottom: 13px;
+}
+
+#registra-cuenta .form-net {
+	padding: 55px 20px;
+	width: 100px;
+}
+#registra-cuenta .form .term{
+	display: flex;
+	font-size: 0.85em;
+	margin: 10px 0;
+	vertical-align: top;
+}
+#registra-cuenta .form .term a{
+	margin:0 5px;
+}
+.popUp-container #registra-cuenta  input{
+	border-color: #FFD000;
+}
+/*=================================================================
+State
+===================================================================*/
+.show{
+	display: block;
+}
+.hidden{
+	display: none;
+}

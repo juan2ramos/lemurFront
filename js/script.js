@@ -24,5 +24,25 @@ $(function() {
       }
     return false;
   });
+  $('.popup-link').click(function() {
+    $this = $(this);
+    $('.popUp-container').addClass('show');
+
+    $('#close').click(function() {
+      $('.popUp-container').removeClass('show');
+      $('#ingresa-cuenta').addClass('hidden');
+      $('#registra-cuenta').addClass('hidden');
+    });
+
+    if($this.is('#img-ingresar')){
+      $('#ingresa-cuenta').removeClass('hidden');
+      $('#popUp-contend').css("backgroundImage", "url(images/pattern.jpg)");
+    }else{
+      $('#registra-cuenta').removeClass('hidden');
+      $('#popUp-contend').css("backgroundImage", "url(images/pattern1.jpg)");
+    }
+
+
+  });
 
 });

@@ -28,13 +28,14 @@
     </head>
     <body>
         <div class="wrapper">
+            <!-- Header -->
             <header>
                 <figure id="logo">
                     <a href="categorias"><img src="images/logo.png" /></a>
                 </figure>
                 <div id="contend-form">
-                    <a href="#" id="img-registrar"></a>
-                    <a href="#" id="img-ingresar"></a>
+                    <a href="#" id="img-registrar" class="popup-link"></a>
+                    <a href="#" id="img-ingresar" class="popup-link"></a>
         
                     <form>
                         <input type="text" placeholder="Buscar">
@@ -56,6 +57,7 @@
                      
                 </div>
             </header>
+            <!-- nav -->
             <nav>                
                 <ul>
                     <li>
@@ -95,6 +97,7 @@
                     </li>
                 </ul>                
             </nav> 
+            <!-- contend -->
             <section id="contend" >               
                 <?php require_once $fileName; ?>
            </section>
@@ -110,6 +113,7 @@
                     </li>
             </ul> 
         </div>
+        <!-- footer -->
         <footer>
                 <p>
                     ®2013 Todos los Derechos Reservados Lemur Studio 
@@ -120,6 +124,76 @@
                     <img src="images/logomim.png" alt="mi-martinez.com" >
                 </a>
         </footer>
+        <!-- popUp -->
+        <div class="popUp-container">
+            <section id="popUp-contend">
+                <div id="close">
+                    <img src="images/close2.png">
+                </div>
+                <div id="ingresa-cuenta" class="hidden">
+                    <h2>Ingresa a tu Cuenta</h2>
+                    <form>
+                        <div class="form">
+                            <label>Correo electrónico:<span>*</span></label>
+                            <input type="text" >
+                            <label>Contraseña:<span>*</span></label>
+                            <input type="text" >  
+                            <a href="#">¿Olvidaste tu contraseña?</a>                  
+                        </div>
+                        <div class="form form-net"> 
+                            <p>Ingresa con</p>
+                            <ul>
+                                <li>
+                                    <a href="#"><img src="images/facebook.png"></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/twitter.png"></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/google_plus.png"></a>
+                                </li>
+                            </ul>
+                            <input type="submit" value="Ingresa">
+                        </div>
+                    </form>
+                </div>
+                <div id="registra-cuenta" class="hidden">
+                    <h2>Regístrate</h2>
+                    <form>
+                        <div class="form">
+                            <label>Nombre:<span>*</span></label>
+                            <input type="text" >
+                            <label>Apellidos:<span>*</span></label>
+                            <input type="text" >
+                            <label>Correo electrónico:<span>*</span></label>
+                            <input type="text" >
+                            <label>contraseña:<span>*</span></label>
+                            <input type="text" >   
+                            <p class="term">
+                                Al crear tu cuenta aceptas los 
+                                <a href="terminos-y-condiciones"> terminos y condiciones.</a>  
+                            </p>                
+                        </div>
+                        <div class="form form-net"> 
+                            <p>Registrate con</p>
+                            <ul>
+                                <li>
+                                    <a href="#"><img src="images/facebook.png"></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/twitter.png"></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/google_plus.png"></a>
+                                </li>
+                            </ul>
+                            <input type="submit" value="Registrate">
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </div>    
+
     <!-- JavaScript -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="js/script.js"></script>
