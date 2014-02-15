@@ -392,6 +392,17 @@ Categorias
 /*=================================================================
 sube tu idea
 ===================================================================*/
+#input-contend{
+	position: relative;
+}
+#input-contend span{
+	color: rgb(161, 161, 161);
+	font-size: .8em;
+	font-style: italic;
+    position: absolute;    
+    right: 28px;
+    top: 15px;
+}
 .sube-tu-idea .show-captcha, .sube-tu-idea .captcha, .sube-tu-idea .sumbit{
 	background-color: rgba(0, 0, 0, 0.5);
 	box-sizing: border-box;
@@ -431,23 +442,14 @@ sube tu idea
 	background-color: rgba(0, 0, 0, 0.26);
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
+	color: #fff;
 	height: 150px;
-	padding: 82px;
+	padding: 60px;
+	text-align: center;
 	width: 557px;
 }
-.sube-tu-idea .imagen::-webkit-input-placeholder {
-
-   font-style: normal;
-}
-
-.sube-tu-idea .imagen::-moz-placeholder {
-   color: #fff;  
-   font-style: normal;
-}
-
-.sube-tu-idea .imagen:-ms-input-placeholder {  
-   color: #fff; 
-   font-style: normal; 
+.sube-tu-idea .imagen a{
+	color: #F7931E;
 }
 .sube-tu-idea .text{
 	height: 96px
