@@ -520,6 +520,7 @@ Contacto
 	color: #fff;
 	cursor: pointer;
 	font-weight: 100;
+	font-size: 17px;
 	left: 360px;
 	margin: 25px 0;
 	padding: 3px;	
@@ -527,7 +528,7 @@ Contacto
 	width: 200px;
 }
 .contact-form input[type="submit"]:hover{	
-	background: #961A1D;
+	background: rgba(150, 26, 29, 0.4);
 }
 /*=================================================================
 Servicios
