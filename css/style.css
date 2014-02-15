@@ -638,10 +638,11 @@ Perfil
 	font-weight: 100;
 	font-size: 17px;
 	float: left;
-	margin: 25px 0;
+	margin: 15px 0;
 	padding: 3px;
 	position: relative;
-	width: 200px;	
+	width: 150px;
+	text-align: center;	
 }
 .perfil input[type="submit2"]:hover{	
 	background: rgba(151, 26, 30, 0.4);
