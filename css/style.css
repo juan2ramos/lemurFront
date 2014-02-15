@@ -166,8 +166,12 @@ nav a{
 	text-decoration: none;
 	width: 140px;
 }
-nav a:hover{
-	color: #E47F1C
+nav li:hover{
+	color: #E47F1C;
+	border-bottom: 1px solid #f8981c;
+}
+nav a:hover {
+	color: #E47F1C;
 }
 nav p{
 	font-size: 0.95em;
@@ -225,6 +229,46 @@ nav p{
 	background: url("../images/vota.png") -7px 34px
 
 }
+.preguntas-active .preguntas-class a, 
+.sube-tu-idea-active .sube-class a,
+.categorias-active .categorias-class a ,
+.contacto-active .contacto-class a,
+.servicios-active .servicios-class a,
+.trabaja-en-lemur-active .trabaja-class a,
+.vota-por-una-idea-active .categorias-class a{
+	color: #E47F1C;
+}
+.preguntas-active .preguntas-class, 
+.sube-tu-idea-active .sube-class ,
+.categorias-active .categorias-class ,
+.contacto-active .contacto-class ,
+.servicios-active .servicios-class ,
+.trabaja-en-lemur-active .trabaja-class,
+.vota-por-una-idea-active .categorias-class {
+	border-bottom: 1px solid #f8981c;
+}
+
+
+.preguntas-active .preguntas-class a {
+	background: url("../images/preguntas.png") -8px 34px  !important
+} 
+.sube-tu-idea-active .sube-class a{
+	background: url("../images/sube.png") -7px 34px !important
+}
+.categorias-active .categorias-class a, .vota-por-una-idea-active .categorias-class a {
+	background: url("../images/vota.png") -7px 34px !important
+}
+.contacto-active .contacto-class a{
+	background:url("../images/contacto.png") -7px -34px !important
+}
+.servicios-active .servicios-class a{
+	background: url("../images/servicios.png") -6px 34px !important
+}
+.trabaja-en-lemur-active .trabaja-class a{
+	background: url("../images/trabaja.png") -7px 34px !important
+}
+
+
 /*=================================================================
 network
 ===================================================================*/

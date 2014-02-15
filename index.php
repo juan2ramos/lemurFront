@@ -12,7 +12,8 @@ try{
     $url = isset($_GET['url'])?$_GET['url']:'categorias';
     $fileName = ROOT . 'views' . DS . $url . '.php' ;
     if(is_readable($fileName)){
-        $title = str_replace("-", " ", $url);        
+        $title = str_replace("-", " ", $url);  
+        $active = $url . "-active" ;   
         require_once ROOT . 'layout' .DS . 'default.php';               
     }else {
         throw new Exception("Error 404 pagina no existe: ". $_GET['url'] , 1);         

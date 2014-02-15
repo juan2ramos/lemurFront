@@ -58,19 +58,19 @@
                 </div>
             </header>
             <!-- nav -->
-            <nav>                
+            <nav class="<?php echo $active;?>">                
                 <ul>
-                    <li>
+                    <li class="sube-class">
                         <a href="sube-tu-idea" id="sube">                           
                             <p>Sube tu idea</p>
                         </a>
                     </li>
-                    <li>
+                    <li class="categorias-class">
                         <a href="categorias" id="vota">                           
                             <p>Vota por una idea</p>
                         </a>
                     </li>
-                    <li>
+                    <li class="preguntas-class">
                         <a href="preguntas" id="preguntas">
                             <p>Tienes Preguntas?</p>                           
                         </a>
@@ -80,17 +80,17 @@
                             <p>Productos para ti</p>                           
                         </a>
                     </li>
-                    <li>
+                    <li class="contacto-class">
                         <a href="contacto" id="contacto">                           
                            <p>Contáctanos</p>
                         </a>
                     </li>
-                    <li>
+                    <li class="servicios-class">
                         <a href="servicios" id="servicios">                           
                             <p>Servicios</p>
                         </a>
                     </li>
-                    <li>
+                    <li class="trabaja-class">
                         <a href="trabaja-en-lemur" id="trabaja">
                             <p>Trabaja en Lemur</p>                           
                         </a>                        
