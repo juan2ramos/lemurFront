@@ -27,6 +27,6 @@
 			      	<input type="text" placeholder="Cuentanos sobre ti" class="text">
 			      	<input type="text" placeholder="Cuales son tus habilidades especiales" class="text">
 
-			      	<input class="sumbit" type="submit" value="Guardar">
+			      	<input class="sumbit2" type="submit" value="Guardar">
 		      	</form>
 		    </div>

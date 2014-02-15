@@ -629,6 +629,24 @@ Perfil
 .perfil input[type="submit"]:hover{	
 	background: rgba(151, 26, 30, 0.4);
 }
+
+.perfil input[type="submit2"]{
+	background: rgba(0, 0, 0, 0.5);
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	font-weight: 100;
+	font-size: 17px;
+	left: 0px;
+	margin: 15px 0;
+	padding: 3px;
+	position: relative;
+	width: 200px;	
+}
+.perfil input[type="submit2"]:hover{	
+	background: rgba(151, 26, 30, 0.4);
+}
+
 p#p-picture{
 	font-size: 0.95em;
 	max-width: 410px;
