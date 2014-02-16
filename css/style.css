@@ -917,6 +917,36 @@ popUp
 .popUp-container #registra-cuenta  input{
 	border-color: #FFD000;
 }
+
+
+/*=================================================================
+Password
+===================================================================*/
+.password{
+	padding: 0 0 20px 40px;
+}
+.password input[type="submit"]{
+	background: rgba(0,0,0,0.5);
+	border: none;
+	color:#fff;
+	padding: 5px 45px;
+}
+.password input[type="submit"]:hover{
+	background-color: #961A1D;
+}
+.password input[type="text"]{
+	background: none;
+	border-color: #961A1D;
+	border-width: 0px 0px 1px;
+	color: #fff;
+	margin: 0 15px;
+	width: 230px
+}
+.password label{
+	color: #fff;
+	font-size: 1.2em
+}
+
 /*=================================================================
 State
 ===================================================================*/
