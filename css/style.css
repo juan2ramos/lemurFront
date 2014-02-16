@@ -143,10 +143,11 @@ header dd, header dt {
 	-moz-box-sizing: border-box;
 	margin-bottom: 2px;
 	text-align: right;
-	width: 140px;
+	width: auto;
+	float: right;
 }
 #hours,#user-info,.img-cronos{
-	display: inline-block;
+	display: table-row-group;
 	vertical-align: bottom;
 }
 #user-info a{
@@ -158,6 +159,7 @@ header dd, header dt {
 	font-size: 1.2em;
 	margin: 0;
 	line-height: 24px;
+	padding-left: 10px;
 }
 #user img{
 
