@@ -494,7 +494,7 @@ sube tu idea
 	font-size: 19px;
 }
 .sube-tu-idea .sumbit:hover{
-	background:  rgba(150, 26, 29, 0.3)
+	background:  rgba(150, 26, 29, 0.5)
 }
 .sube-tu-idea ::-webkit-input-placeholder {
    color: #fff;
@@ -523,11 +523,12 @@ vota por una idea
 	background: rgba(0,0,0,0.5);
 	color: #fff;
 	display: block;
-	padding: 9px 20px;
+	padding: 6px 20px;
 	text-decoration: none;
+	font-size: 17px;
 }
 .back a:hover{
-	background: #961A1D;
+	background: rgba(150, 26, 29, 0.5);
 
 }
 .der{
@@ -563,7 +564,7 @@ vota por una idea
 	position: relative;
 }
 .vota-por-una-idea li{
-	background: #961A1D url("../images/bombillo.jpg") no-repeat center top;
+	background: rgba(150, 26, 29, 0.5) url("../images/bombillo.jpg") no-repeat center top;
 	display: inline-block;
 	border-style: none;
 	border-color: transparent;
@@ -587,7 +588,7 @@ Contacto
 }
 .contact-form input{
 	background: none;
-	border-color: #961A1D;
+	border-color: rgba(150, 26, 29, 0.5);
 	border-width: 0px 0px 1px;
 	color: #fff;
 	width: 370px
@@ -808,7 +809,7 @@ popUp
 
 
 #popUp-contend{
-	background: #961A1D url("../images/pattern.jpg") repeat left top;
+	background: rgba(150, 26, 29, 0.5) url("../images/pattern.jpg") repeat left top;
 	height: 290px;
 	left: 50%;
 	margin: -145px -330px;
@@ -947,11 +948,11 @@ Password
 	padding: 5px 45px;
 }
 .password input[type="submit"]:hover{
-	background-color: #961A1D;
+	background-color: rgba(150, 26, 29, 0.5);
 }
 .password input[type="text"]{
 	background: none;
-	border-color: #961A1D;
+	border-color: rgba(150, 26, 29, 0.5);
 	border-width: 0px 0px 1px;
 	color: #fff;
 	margin: 0 15px;
@@ -1060,7 +1061,7 @@ h3{
 	width: 200px;
 }
 .detalle-idea input[type='submit']:hover{
-	background-color: #961A1D;
+	background-color: rgba(150, 26, 29, 0.5);
 }
 /*=================================================================
 about
@@ -1073,7 +1074,7 @@ about
 	margin-right: 100px;
 }
 .about-contend #popUp-contend {
-	background: #961A1D url("../images/pattern.jpg") repeat left top ;
+	background: rgba(150, 26, 29, 0.5) url("../images/pattern.jpg") repeat left top ;
 	color: #fff;
 	height: 670px;
 	margin-top: -335px;
@@ -1086,7 +1087,7 @@ about
 Slider
 ===================================================================*/
 .slider #popUp-contend {
-	background: #961A1D  ;
+	background: rgba(150, 26, 29, 0.5)  ;
 	height: 500px;
 	margin: -250px -207px;
 	padding: 0;
