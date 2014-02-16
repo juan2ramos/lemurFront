@@ -77,7 +77,7 @@ header dd, header dt {
 	font-size: 1.1em;
 	font-weight: 100;
 	line-height: 18px;
-	padding-left: 21px;
+	padding-left: 23px;
 	text-align: left;
 
 }
@@ -559,7 +559,7 @@ vota por una idea
 	width: 75px;
 }
 .vota-por-una-idea{
-	padding: 0 0 20px 40px;
+	padding: 10px 0 20px 40px;
 	position: relative;
 }
 .vota-por-una-idea li{
@@ -580,7 +580,7 @@ Contacto
 ===================================================================*/
 
 .contacto{
-	padding: 0 0 20px 40px;
+	padding: 10px 0 20px 40px;
 }
 .contact-form{
 	width: 560px;
@@ -601,7 +601,7 @@ Contacto
 }
 
 .contact-form .message-span{
-    color: #A7A7A7;
+    color: #fff;
     display: inline-block;
     font-size: 14px;
     font-style: italic;
@@ -639,7 +639,7 @@ Contacto
 Servicios
 ===================================================================*/
 .servicios{
-	padding: 0 0 20px 40px;
+	padding: 10px 0 20px 40px;
 }
 .servicios h3{
 	color: #fff;
@@ -659,7 +659,7 @@ Servicios
 Trabaja en lemur
 ===================================================================*/
 .trabaja-en-lemur{
-	padding: 0 0 20px 40px;	
+	padding: 10px 0 20px 40px;	
 }
 .trabaja-en-lemur input{
 	width: 250px	
@@ -674,7 +674,7 @@ Perfil
 }
 
 .perfil{
-	padding: 0 0 20px 40px;	
+	padding: 10px 0 20px 40px;	
 }
 .perfil figure{
  	background: rgba(255, 255, 255, 0.5);
@@ -775,7 +775,7 @@ p#p-picture{
 preguntas
 ===================================================================*/
 .preguntas{
-	padding: 0 0 20px 40px;	
+	padding: 10px 0 20px 40px;	
 }
 .preguntas a{
 	background: url(../images/more.png) no-repeat 0 0;
@@ -800,7 +800,7 @@ preguntas
 terminos y condiciones
 ===================================================================*/
 .terminos-y-condiciones{
-	padding: 0 0 20px 40px;	
+	padding: 10px 0 20px 40px;	
 }
 /*=================================================================
 popUp
@@ -938,7 +938,7 @@ popUp
 Password
 ===================================================================*/
 .password{
-	padding: 0 0 20px 40px;
+	padding: 10px 0 20px 40px;
 }
 .password input[type="submit"]{
 	background: rgba(0,0,0,0.5);
@@ -1027,12 +1027,12 @@ h3{
 	top: -115px;
 }
 .color{
-	background: rgba(255, 255, 255, 0.7);
+	background: rgba(255, 255, 255, 0.5);
 	color: #000 !important;
 	padding: 8px;
 }
 .detalle-idea{
-	padding: 0 0 20px 40px;
+	padding: 10px 0 20px 40px;
 	position: relative;
 }
 .detalle-idea .back{
@@ -1043,7 +1043,7 @@ h3{
 .detalle-idea .izq{
 	display: inline-block;
 	margin-top: -3px;
-	padding: 3px 12px 0 40px;
+	padding: 6px 12px 0 40px;
 	width: auto;
 	font-size: 23px;
 }
