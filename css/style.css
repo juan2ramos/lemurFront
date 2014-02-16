@@ -1070,7 +1070,7 @@ about
 	margin-right: 100px;
 }
 .about-contend #popUp-contend {
-	background: #961A1D url("http://localhost/lemurFront/css/../images/pattern.jpg") repeat left top ;
+	background: #961A1D url("../images/pattern.jpg") repeat left top ;
 	color: #fff;
 	height: 670px;
 	margin-top: -335px;
