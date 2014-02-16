@@ -520,6 +520,7 @@ vota por una idea
 }
 .back a{
 	background: rgba(0,0,0,0.5);
+	margin-top:  10px;
 	color: #fff;
 	display: block;
 	padding: 6px 20px;
