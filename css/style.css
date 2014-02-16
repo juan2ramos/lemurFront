@@ -71,9 +71,15 @@ header dd, header dt {
 	width: 677px;
 }
 #contend-form a{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
 	color: #fff;
-	font-size: 1em;
+	font-size: 1.1em;
 	font-weight: 100;
+	line-height: 18px;
+	padding-left: 21px;
+	text-align: left;
+
 }
 #contend-form input[type="text"]{
 	border: none;	
@@ -124,10 +130,11 @@ header dd, header dt {
 }
 #img-ingresar:hover{
 	background-position: 0 1px;
+	color: #E47F1C
 }
 #img-registrar:hover{
 	background-position: 0 -22px;
-
+	color: #E47F1C
 }
 
 #user-info{
@@ -143,6 +150,7 @@ header dd, header dt {
 	vertical-align: bottom;
 }
 #user-info a{
+	padding: 0;
 	text-decoration: none;
 }
 #user-info p{

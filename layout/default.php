@@ -34,8 +34,8 @@
                     <a href="categorias"><img src="images/logo.png" /></a>
                 </figure>
                 <div id="contend-form">
-                    <a href="#" id="img-registrar" class="popup-link"></a>
-                    <a href="#" id="img-ingresar" class="popup-link"></a>
+                    <a href="#" id="img-registrar" class="popup-link">Registrate</a>
+                    <a href="#" id="img-ingresar" class="popup-link">Ingresa</a>
         
                     <form>
                         <input type="text" placeholder="Buscar">
