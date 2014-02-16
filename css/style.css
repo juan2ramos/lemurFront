@@ -532,13 +532,13 @@ vota por una idea
 
 }
 .der{
-	background: #F8981C url("../images/voto.png") no-repeat left top;
+	background: rgba(248, 152, 28, 0.5) url("../images/voto.png") no-repeat left top;
 }
 .der:hover,.izq:hover{
-	background-color: #A4271E;
+	background-color: rgba(150, 26, 29, 0.5);
 }	
 .izq{
-	background: #F8981C url("../images/vota2.png") no-repeat left top;
+	background: rgba(248, 152, 28, 0.5) url("../images/vota2.png") no-repeat left top;
 }
 .izq, .der{	
 	color: #FFFFFF;
