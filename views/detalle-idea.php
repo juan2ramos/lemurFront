@@ -34,3 +34,41 @@
                     <p class="color">Aliquet phasellus in nec ac porttitor? Porttitor ridiculus, turpis, sit? Turpis dapibus mid ac, turpis! Montes porttitor, egestas tincidunt lectus quis a ut eu, platea mattis mattis magna porta, enim ultrices vel scelerisque! Placerat port</p>
                 	<input type="submit" class="sumbit" value="Enviar">
                 </div>
+                <div class="popUp-container-slide">
+                    <div class="contend-slider">
+                         <div class="close" id="close">
+                              <img src="images/close2.png">
+                         </div>
+                          <div class="slider">
+                               <ul class="slides">
+                             
+                                   <li>
+                                        <span class="caption">
+                                             <img src="http://www.lemurstudio.com.co/images/portfolio/portfolio_large_05.jpg">                          
+                                        </span>
+                                   </li>
+                                   <li>
+                                        <span class="caption">
+                                             <img src="http://www.lemurstudio.com.co/images/news/news_06.jpg">                         
+                                        </span>
+                                   </li>
+                                   <li>
+                                        <span class="caption">
+                                             <img src="http://www.lemurstudio.com.co/images/portfolio/portfolio_large_11.jpg">                        
+                                        </span>
+                                   </li>
+                                   <li>
+                                        <span class="caption">
+                                        <img src="http://www.lemurstudio.com.co/images/portfolio/portfolio_large_09.jpg">                          
+                                   </span>
+                                   </li>
+                                   <li>
+                                        <span class="caption">
+                                             <img src="http://www.lemurstudio.com.co/images/portfolio/portfolio_large_12.jpg">                           
+                                        </span>
+                                   </li>
+                              
+                            </ul>
+                          </div>
+                    </div>      
+                </div>

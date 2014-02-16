@@ -61,18 +61,11 @@ $(function() {
       animation: "none",
       slideshow: true,
       prevText: "<",
-      nextText: ">",
-      smoothHeight: true
-
-
+      nextText: ">" 
     });
   }
   $('#slide').click(function() {
-    $('.popUp-container-slide').addClass('opacity');
-    $('#close').click(function() {
-      $('.popUp-container-slide').removeClass('opacity');
-
-    });
+    $('.popUp-container-slide').addClass('show');
 
   });
 

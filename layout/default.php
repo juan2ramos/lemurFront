@@ -244,6 +244,7 @@
 
     <!-- JavaScript -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
     <script src="js/script.js"></script>
     <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
     <script>

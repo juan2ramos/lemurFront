@@ -1106,18 +1106,45 @@ Slider
 .slider .close{
 	right: 40px;
 }
+.contend-slider{
+	
+	margin: 100px auto;
+	position: relative;
+	text-align: center;
+	width: 500px;
 
-#next,#prev{
+}
+.contend-slider a{
+	text-decoration: none
+}
+.contend-slider img{
+	max-width: 500px
+}
+.contend-slider ol{
+	display: none;
+}
+.flex-next,.flex-prev{
 	color: #fff;
 	cursor: pointer;
 	font-size: 3.5em;
 	left: 10px;
+	margin-top: -35px; 
 	position: absolute;
-	top: 43%;
+	top: 50%;
 }
-#next{
-	left: 370px;
+.flex-next{
+	left: 460px;
 }
+.popUp-container-slide{
+	background: rgba(0,0,0,.5);
+	opacity: 0;
+	left: 0;
+	min-height: 100%;
+	min-width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: -1000
+}		
 /*=================================================================
 State
 ===================================================================*/
@@ -1129,4 +1156,8 @@ State
 }
 .modify{
 	margin-top: 20px;
+}
+.opacity{
+	opacity: 1;
+	z-index: 1000
 }
