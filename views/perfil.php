@@ -13,10 +13,10 @@
 						      	declarando que tienes los permisos para distribuir esta foto y que 
 						      	no violas los derechos de autor.
 					      	</p>
-					      	<input type="file">
-					      	<div class="custom-input-file"><input type="file" size="1" class="input-file" />
-   								 Subir archivo
-								</div> 
+					      	<div class="custom-input-file"><input type="file" class="input-file" />
+Examinar
+    <div class="archivo">...</div>
+</div>
 			      		</div>
 			      	</div>
 			      	<h3>Perfil Información de perfil</h3>
