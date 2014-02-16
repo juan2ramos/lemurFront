@@ -13,11 +13,8 @@
 						      	declarando que tienes los permisos para distribuir esta foto y que 
 						      	no violas los derechos de autor.
 					      	</p>
-					      	<div class="custom-input-file"><input type="file" class="input-file" />
-Examinar
-    <div class="archivo">...</div>
-</div>
-			      		</div>
+					      	<input type="file">
+				  		</div>
 			      	</div>
 			      	<h3>Perfil Información de perfil</h3>
 			      	<input type="text" class="half" placeholder="Nombres">
