@@ -5,35 +5,35 @@
 	      <ul>
 	        <li>
 	          <div class="izq">78</div>
-	          <div class="der">info</div>
+	          <a href="detalle-idea" class="der">info</a>
 	        </li>
 	        <li>
 	          <div class="izq">345</div>
-	          <div class="der">info</div>
+	          <a href="detalle-idea" class="der">info</a>
 	        </li>
 	        <li>
 	          <div class="izq">25</div>
-	          <div class="der">info</div>
+	          <a href="detalle-idea" class="der">info</a>
 	        </li>
 	        <li>
 	          <div class="izq">45</div>
-	          <div class="der">info</div>
+	          <a href="detalle-idea" class="der">info</a>
 	        </li>
 	        <li>
 	          <div class="izq">456</div>
-	          <div class="der">info</div>
+	          <a href="detalle-idea" class="der">info</a>
 	        </li>
 	        <li>
 	          <div class="izq">3</div>
-	          <div class="der">info</div>
+	          <a href="detalle-idea" class="der">info</a>
 	        </li>
 	        <li>
 	          <div class="izq">345</div>
-	          <div class="der">info</div>
+	          <a href="detalle-idea" class="der">info</a>
 	        </li>
 	        <li>
 	          <div class="izq">345</div>
-	          <div class="der">info</div>
+	          <a href="detalle-idea" class="der">info</a>
 	        </li>
 	      </ul>
 	    </div>

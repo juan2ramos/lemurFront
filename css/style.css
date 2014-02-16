@@ -11,7 +11,7 @@ body{
 	font-family: 'Lato', sans-serif;
 	font-size: 15px;
 }
-body,h2,h3,h4,p{	
+body,h2,h3,h4,p{
 	font-weight: 300
 }
 li{
@@ -541,6 +541,7 @@ vota por una idea
 	filter: alpha(opacity=80);
 	padding-left: 53px;
 	padding-top: 2px;
+	text-decoration: none;
 	text-align: left;
 	width: 75px;
 }
@@ -945,6 +946,107 @@ Password
 .password label{
 	color: #fff;
 	font-size: 1.2em
+}
+
+/*=================================================================
+Detalle-idea
+===================================================================*/
+h3{
+	color: #fff
+}
+#back-contend{
+	position: absolute;
+	right: 28px;
+	top: 2px;
+	z-index: 1000;
+}
+#info-idea{
+	background: rgba(0, 0, 0, 0.47);
+	color: #fff;	
+	display: inline-block;
+	height: 235px;
+	margin-left: -3px;
+	text-align: center;
+	vertical-align: top;
+	width: 165px;
+}
+#info-idea img{
+	background: rgba(0, 0, 0, 0.5);
+	margin-top: 30px;
+	padding: 10px;
+}
+#info-idea li{
+	display: inline-block;
+	opacity: 0.5;
+	padding: 0 0 0 2px;
+}
+#info-idea li:hover{
+	opacity: 1;
+}
+#info-idea li img{
+	background: no-repeat;	
+	margin: 0 5px;
+	padding: 0;
+}	
+#info-idea p{
+	color: rgba(255,255,255,.5);
+	font-size: 1em;
+	margin: 20px 0 3px;
+	text-align: center;
+	width: 165px;
+}
+#slide{
+	background: url("../images/more-back.png") center center no-repeat;
+	cursor: pointer;
+	display: inline-block;
+	height: 235px;
+	overflow: hidden;
+	position: relative;
+	width: 400px;
+}
+#slide:hover img{
+	opacity: .5
+}
+#slide img{
+	left: -10px;
+	position: absolute;
+	top: -115px;
+}
+.color{
+	background: rgba(255, 255, 255, 0.7);
+	color: #000 !important;
+	padding: 8px;
+}
+.detalle-idea{
+	padding: 0 0 20px 40px;
+	position: relative;
+}
+.detalle-idea .back{
+	display: inline-block;
+	position: static;
+	vertical-align: top;
+}
+.detalle-idea .izq{
+	display: inline-block;
+	margin: 0;
+	padding: 0 12px 0 40px;
+	width: 92px;
+}
+.detalle-idea input[type='submit']{
+	background: rgba(0, 0, 0, 0.5);
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	font-weight: 100;
+	font-size: 17px;
+	left: 360px;
+	margin: 25px 0;
+	padding: 3px;
+	position: relative;
+	width: 200px;
+}
+.detalle-idea input[type='submit']:hover{
+	background-color: #961A1D;
 }
 
 /*=================================================================
