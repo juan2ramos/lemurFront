@@ -1054,8 +1054,8 @@ h3{
 	cursor: pointer;
 	font-weight: 100;
 	font-size: 17px;
-	left: 360px;
-	margin: 25px 0;
+	float: left;
+	margin: 5px 10px;
 	padding: 3px;
 	position: relative;
 	width: 200px;
