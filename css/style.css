@@ -1040,10 +1040,11 @@ h3{
 	display: inline-block;
 	position: static;
 	vertical-align: top;
+	margin: 26px 5 0 0;
 }
 .detalle-idea .izq{
 	display: inline-block;
-	margin-top: -3px;
+	margin-top: 32px;
 	padding: 6px 12px 0 40px;
 	width: auto;
 	font-size: 23px;
