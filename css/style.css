@@ -1043,9 +1043,10 @@ h3{
 }
 .detalle-idea .izq{
 	display: inline-block;
-	margin: 0;
-	padding: 0 12px 0 40px;
-	width: 92px;
+	margin-top: -3px;
+	padding: 3px 12px 0 40px;
+	width: auto;
+	font-size: 23px;
 }
 .detalle-idea input[type='submit']{
 	background: rgba(0, 0, 0, 0.5);
@@ -1054,8 +1055,9 @@ h3{
 	cursor: pointer;
 	font-weight: 100;
 	font-size: 17px;
-	float: left;
+	float: right;
 	margin: 5px 10px;
+	margin-bottom: 25px;
 	padding: 3px;
 	position: relative;
 	width: 200px;
