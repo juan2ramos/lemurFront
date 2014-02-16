@@ -537,7 +537,7 @@ vota por una idea
 	background-color: rgba(150, 26, 29, 0.8);
 }	
 .izq{
-	background: rgba(248, 152, 28, 0.8) url("../images/vota2.png") no-repeat right top;
+	background: rgba(248, 152, 28, 0.8) url("../images/vota2.png") no-repeat left top;
 }
 .izq, .der{	
 	color: #FFFFFF;
