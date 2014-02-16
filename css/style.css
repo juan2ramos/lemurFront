@@ -116,8 +116,9 @@ header dd, header dt {
 }
 
 #hours{
+
+	float: left;
 	margin-left: 20px;
-	width: 435px;
 }
 #img-ingresar,#img-registrar{
 	background: url("../images/ingresar.png") no-repeat left bottom;
@@ -141,13 +142,10 @@ header dd, header dt {
 	background: rgba(0, 0, 0, 0.5);
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
-	margin-bottom: 2px;
-	text-align: right;
-	width: auto;
-	float: right;
+	margin-top: 20px;
 }
 #hours,#user-info,.img-cronos{
-	display: table-row-group;
+	display: inline-block;
 	vertical-align: bottom;
 }
 #user-info a{
@@ -169,7 +167,8 @@ header dd, header dt {
 	display: inline-block;
 }
 .img-cronos {
-	padding-bottom: 6px
+	padding: 25px 0px 0px 42px;
+	float: left;
 }
 /*=================================================================
 nav
