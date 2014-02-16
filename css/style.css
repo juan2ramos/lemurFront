@@ -534,7 +534,7 @@ vota por una idea
 	background: rgba(248, 152, 28, 0.5) url("../images/voto.png") no-repeat left top;
 }
 .der:hover,.izq:hover{
-	background-color: rgba(150, 26, 29, 0.5);
+	background-color: rgba(150, 26, 29, 0.8);
 }	
 .izq{
 	background: rgba(248, 152, 28, 0.5) url("../images/vota2.png") no-repeat left top;
@@ -569,7 +569,7 @@ vota por una idea
 	border-color: transparent;
 	margin: 17px 40px 28px 0;
 	position: relative;
-	width: 259px;
+	width: 260px;
 	z-index: 4;
 }
 .vota-por-una-idea li:nth-child(2n){
