@@ -276,7 +276,7 @@ nav p{
 .servicios-active .servicios-class ,
 .trabaja-en-lemur-active .trabaja-class,
 .vota-por-una-idea-active .categorias-class {
-	border-bottom: 1px solid #f8981c;
+	border-bottom: 1px solid #E47F1C;
 }
 
 
@@ -427,7 +427,7 @@ sube tu idea
 	position: relative;
 }
 #input-contend span{
-	color: rgb(161, 161, 161);
+	color: rgb(256, 256, 256);
 	font-size: .8em;
 	font-style: italic;
     position: absolute;    
@@ -478,6 +478,9 @@ sube tu idea
 	padding: 60px;
 	text-align: center;
 	width: 557px;
+	font-size: 17px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 .sube-tu-idea .imagen a{
 	color: #F7931E;
@@ -805,7 +808,7 @@ popUp
 
 
 #popUp-contend{
-	background: #961A1D url("http://localhost/lemurFront/css/../images/pattern.jpg") repeat left top;
+	background: #961A1D url("../images/pattern.jpg") repeat left top;
 	height: 290px;
 	left: 50%;
 	margin: -145px -330px;
