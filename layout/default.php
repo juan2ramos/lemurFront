@@ -162,7 +162,7 @@
                             <input type="text" >
                             <label>Contraseña:<span>*</span></label>
                             <input type="text" >  
-                            <a href="#">¿Olvidaste tu contraseña?</a>                  
+                            <a href="password">¿Olvidaste tu contraseña?</a>                  
                         </div>
                         <div class="form form-net"> 
                             <p>Ingresa con</p>

@@ -4,7 +4,7 @@
                     	para generar una nueva contraseña.
                     </p>
                     <form>
-                    	<label>Correo electrónicos<span>*</span></label>
+                    	<label>Correo electrónico<span>*</span></label>
                     	<input type="text">		
                     	<input type="submit">
                     </form>
