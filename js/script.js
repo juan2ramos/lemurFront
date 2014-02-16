@@ -47,9 +47,23 @@ $(function() {
   $('#about').click(function() {
     $('.popUp-container').addClass('show');
     $('.popUp-container').addClass('about-contend');
+    $('#contend-about').removeClass('hidden');
     $('.close').click(function() {
+      $('#contend-about').addClass('hidden');
+      $('.popUp-container').removeClass('show');
+      $('.popUp-container').removeClass('about-contend');
+    });
+  });
+  $('#slide').click(function() {
+    $('.popUp-container').addClass('show');
+    $('.popUp-container').addClass('slider');
+    $('#popUp-detail').removeClass('hidden');
+    $('.close').click(function() {
+      $('#popUp-detail').addClass('hidden');
+      $('.popUp-container').removeClass('slider');
       $('.popUp-container').removeClass('show');
     });
   });
+
 
 });
