@@ -943,6 +943,7 @@ Password
 }
 .password input[type="submit"]{
 	background: rgba(0,0,0,0.5);
+	font-size: 17px;
 	border: none;
 	color:#fff;
 	padding: 5px 45px;
