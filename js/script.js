@@ -28,7 +28,7 @@ $(function() {
     $this = $(this);
     $('.popUp-container').addClass('show');
 
-    $('#close').click(function() {
+    $('.close').click(function() {
       $('.popUp-container').removeClass('show');
       $('#ingresa-cuenta').addClass('hidden');
       $('#registra-cuenta').addClass('hidden');
@@ -43,6 +43,13 @@ $(function() {
     }
 
 
+  });
+  $('#about').click(function() {
+    $('.popUp-container').addClass('show');
+    $('.popUp-container').addClass('about-contend');
+    $('.close').click(function() {
+      $('.popUp-container').removeClass('show');
+    });
   });
 
 });

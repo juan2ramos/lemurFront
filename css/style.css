@@ -793,12 +793,7 @@ terminos y condiciones
 popUp
 ===================================================================*/
 
-#close{
-	cursor: pointer;
-	position: absolute;
-	right: 20px;
-	top: 20px;
-}
+
 #popUp-contend{
 	background: #961A1D url("http://localhost/lemurFront/css/../images/pattern.jpg") repeat left top;
 	height: 290px;
@@ -813,7 +808,12 @@ popUp
 	color: #fff;
 	font-size: 2.1em;	
 }
-
+.close{
+	cursor: pointer;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+}
 .popUp-container{
 	background: rgba(0,0,0,.5);
 	display: none;
@@ -1048,7 +1048,26 @@ h3{
 .detalle-idea input[type='submit']:hover{
 	background-color: #961A1D;
 }
+/*=================================================================
+about
+===================================================================*/
 
+#images img:nth-child(1){
+	margin: 15px 102px 9px 10px;
+}
+#images img:nth-child(2){
+	margin-right: 100px;
+}
+.about-contend #popUp-contend {
+	background: #961A1D url("http://localhost/lemurFront/css/../images/pattern.jpg") repeat left top ;
+	color: #fff;
+	height: 670px;
+	margin-top: -335px;
+	width: 720px
+}
+.about-contend h1{
+	margin: 0
+}
 /*=================================================================
 State
 ===================================================================*/
