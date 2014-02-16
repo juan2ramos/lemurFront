@@ -73,7 +73,7 @@ header dd, header dt {
 #contend-form a{
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
-	color: #fff;
+	color: rgba(255, 255, 255, 0.7);
 	font-size: 1.1em;
 	font-weight: 100;
 	line-height: 18px;
