@@ -1,6 +1,6 @@
 			<div class="perfil">
 		      	<h2>Perfil</h2>
-		      	<p>Cambia la informacion de tu perfil y manten actualizados tus datos</p>
+		      	<p>Cambia la información de tu perfil y manten actualizados tus datos.</p>
 				<form>
 			      	<div id="profile-picture">
 				      	<p>Foto de perfil</p>
