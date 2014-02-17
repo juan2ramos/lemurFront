@@ -101,7 +101,7 @@
                     </li>
                     <li>
                         <a href="http://store.lemurstudio.com/" id="productos">    
-                            <p>Productos para ti</p>                           
+                            <p>Productos para tí</p>                           
                         </a>
                     </li>
                     <li class="contacto-class">
