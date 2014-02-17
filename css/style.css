@@ -578,7 +578,7 @@ vota por una idea
 	border-color: transparent;
 	margin: 17px 40px 28px 0;
 	position: relative;
-	width: 260px;
+	width: 259px;
 	z-index: 4;
 }
 .vota-por-una-idea li:nth-child(2n){
