@@ -83,6 +83,8 @@ $(function() {
     });
 
   });
-
+  $('#archivo').change(function(){
+    $('#url-archivo').val($(this).val());
+  });
 
 });

@@ -13,7 +13,12 @@
 						      	declarando que tienes los permisos para distribuir esta foto y que 
 						      	no violas los derechos de autor.
 					      	</p>
-					      	<input type="file">
+							<label class="cargar">
+							    Seleccionar archivo<span>
+							    <input type="file" id="archivo" name="archivo" />
+							    </span>
+							</label>							
+					      	<input type="text" id="url-archivo" placeholder="No se ha seleccionado ningún archivo"/>
 				  		</div>
 			      	</div>
 			      	<h3>Perfil Información de perfil</h3>
