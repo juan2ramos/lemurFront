@@ -697,11 +697,7 @@ Perfil
 
 }
 .perfil .cargar a:hover{
-	background-color: rgba(200, 200, 200, 0.5);
-	color: #fff;
-	text-align: center;
-	padding: 5px 15px;
-	margin-left: 22px;
+	background: rgba(150, 26, 29, 0.5);
 
 }
 
