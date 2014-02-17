@@ -69,7 +69,7 @@
                             <?php endif;?>
                         </div>
                         <div id="user-info" class="<?php echo $modify;?>">
-                            <p>Lorena Cardenas</p>
+                            <p>Usuario</p>
                             <a href="perfil">
                                 <span id="engranaje"></span>
                             </a>
