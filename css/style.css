@@ -700,6 +700,11 @@ Perfil
 	background: rgba(150, 26, 29, 0.5);
 
 }
+.perfil .cargar:hover{
+	background: rgba(150, 26, 29, 0.4);
+	cursor: pointer;
+
+}
 
 .perfil #url-archivo{
 
