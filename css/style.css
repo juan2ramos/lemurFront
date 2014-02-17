@@ -983,6 +983,7 @@ Password
 	border: none;
 	color:#fff;
 	padding: 5px 45px;
+	font-weight: 100;
 }
 .password input[type="submit"]:hover{
 	background-color: rgba(150, 26, 29, 0.5);
