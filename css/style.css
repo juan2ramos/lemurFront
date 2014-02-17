@@ -1025,13 +1025,31 @@ h3{
 	position: relative;
 	width: 400px;
 }
+#slide .flex-next,#slide .flex-prev{
+	display: none;
+}
+#slide ol{
+	bottom: 0;
+	display: inline-flex;
+	position: absolute;
+	right: 8px;
+
+}
+#slide ol a{
+	background: #971a1e;
+	border: 1px solid rgba(0, 0, 0, 1);
+	display: inline-flex;
+	color: rgba(255, 0, 0, 0);
+	font-size: 0;
+	margin-right: 5px;
+	padding: 5px;
+	
+}
 #slide:hover img{
 	opacity: .5
 }
 #slide img{
-	left: -10px;
-	position: absolute;
-	top: -115px;
+	max-width: 400px
 }
 .color{
 	background: rgba(255, 255, 255, 0.5);
@@ -1112,7 +1130,8 @@ Slider
 }
 .contend-slider{
 	
-	margin: 100px auto;
+	margin: 70px auto;
+	padding: 50px;
 	position: relative;
 	text-align: center;
 	width: 500px;
@@ -1128,16 +1147,19 @@ Slider
 	display: none;
 }
 .flex-next,.flex-prev{
-	color: #fff;
+	background: url('../images/izquierda.png') no-repeat center center;
+	color: rgba(0,0,0,0);
 	cursor: pointer;
 	font-size: 3.5em;
 	left: 10px;
 	margin-top: -35px; 
 	position: absolute;
+	text-indent: -100;
 	top: 50%;
 }
 .flex-next{
-	left: 460px;
+	background: url('../images/derecha.png') no-repeat center center;
+	left: 555px;
 }
 .popUp-container-slide{
 	background: rgba(0,0,0,.5);

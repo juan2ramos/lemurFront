@@ -67,7 +67,15 @@ $(function() {
 
     });
   }
-  $('#slide').click(function() {
+  $('#slide').flexslider({
+      animation: "none",
+      slideshow: true,
+      prevText: "<",
+      nextText: ">"
+
+
+    });
+  $('#slide img').click(function() {
     $('.popUp-container-slide').addClass('opacity');
     $('#close').click(function() {
       $('.popUp-container-slide').removeClass('opacity');

@@ -12,9 +12,38 @@
                     	egestas tincidunt lectus quis a ut eu, platea mattis mattis magna 
                     	porta, enim ultrices vel scelerisque! Placerat porta habitasse a.
                     </p>
-                    <figure id="slide">
-                    	<img src="images/detalle_idea.jpg" >
-                    </figure>
+                    <div id="slide">
+                    	<ul class="slides">
+                             
+                               <li>
+                                    <span class="caption">
+                                         <img src="http://www.lemurstudio.com.co/images/portfolio/portfolio_large_05.jpg">                          
+                                    </span>
+                               </li>
+                               <li>
+                                    <span class="caption">
+                                         <img src="http://www.lemurstudio.com.co/images/portfolio/portfolio_large_02.jpg">                         
+                                    </span>
+                               </li>
+                               <li>
+                                    <span class="caption">
+                                         <img src="http://www.lemurstudio.com.co/images/portfolio/portfolio_large_03.jpg">                        
+                                    </span>
+                               </li>
+                               <li>
+                                    <span class="caption">
+                                    <img src="http://www.lemurstudio.com.co/images/portfolio/portfolio_large_09.jpg">                          
+                               </span>
+                               </li>
+                               <li>
+                                    <span class="caption">
+                                         <img src="http://www.lemurstudio.com.co/images/portfolio/portfolio_large_12.jpg">                           
+                                    </span>
+                               </li>
+                          
+                        </ul>
+                    </div>
+
                     <div id="info-idea">
                     	<figure >
                     		<img src="images/foto-perfil.png">
@@ -49,12 +78,12 @@
                                    </li>
                                    <li>
                                         <span class="caption">
-                                             <img src="http://www.lemurstudio.com.co/images/news/news_06.jpg">                         
+                                             <img src="http://www.lemurstudio.com.co/images/portfolio/portfolio_large_02.jpg">                         
                                         </span>
                                    </li>
                                    <li>
                                         <span class="caption">
-                                             <img src="http://www.lemurstudio.com.co/images/portfolio/portfolio_large_11.jpg">                        
+                                             <img src="http://www.lemurstudio.com.co/images/portfolio/portfolio_large_03.jpg">                        
                                         </span>
                                    </li>
                                    <li>
