@@ -2,7 +2,7 @@
 		      	<h2>¿Tienes preguntas?</h2>
 		      	<dl class="accordion">
 
-					<dt><a href="" class="expand">¿Que es Lemur Studio?</a></dt>
+					<dt><a href="" class="expand">¿Qué es Lemur Studio?</a></dt>
 					<dd>
 						Dolor sit amet, consectetur adipiscing elit. Aliquam vitae fringilla augue. 
 						Maecenas in lectus lorem. In et accumsan mi. Aenean vestibulum nisl eu arcu 
