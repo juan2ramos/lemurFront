@@ -31,7 +31,7 @@
 
 		     	<div id="input-contend">
 		       		<span>youtube</span>
-			        <label>Agregar vinculo de video</label>
+			        <label>Agrega el vínculo de tu video</label>
 			        <input placeholder="http://"class="" type="text">
 		        </div>
 
