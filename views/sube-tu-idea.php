@@ -5,10 +5,10 @@
 		      	<div id="input-contend">
 			        <label>Dale un título a tu idea</label>
 			        <span>30 caracteres restantes</span>
-			        <input placeholder="(con 2 o 3 palabras bastará)"class="" type="text">
+			        <input placeholder="(Con 2 o 3 palabras bastará)"class="" type="text">
 		        </div>
 		        <label>Categoría de tu idea</label>
-		        <input placeholder="(elige una categoría)"class="" type="text">
+		        <input placeholder="(Elige una categoría)"class="" type="text">
 
 		        <div id="input-contend">
 			        <label>Describe tu idea en pocas palabras</label>
@@ -18,7 +18,7 @@
 		        <div id="input-contend">
 			        <label>Describe la oportunidad o problemática que descubriste</label>
 			        <span>1000 caracteres restante</span>
-			        <input placeholder="(cuentanos del problema)"class="text" type="text">
+			        <input placeholder="(Cuentanos del problema)"class="text" type="text">
 		        </div>
 		        <div id="input-contend">
 			        <label>Describe cómo solucionaste el problema</label>
@@ -27,7 +27,7 @@
 		        </div> 
 
 		        <label>Sube tu imagen o link de tu vídeo aquí</label>
-			    <div class="imagen">imágenes aquí o <a href="#">cárgalas desde tu ordenador</a></div>
+			    <div class="imagen">Imágenes aquí o <a href="#">cárgalas desde tu ordenador</a></div>
 
 		     	<div id="input-contend">
 		       		<span>youtube</span>
