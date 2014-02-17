@@ -27,17 +27,17 @@
 			      	<input type="text" class="half" placeholder="Correo electrónico">
 			      	<input type="text" class="half" placeholder="Nombre de usuario">
 
-			      	<input type="text" class="half" placeholder="edad">
-			      	<input type="text" class="half" placeholder="genero">
-			      	<input type="text" class="half" placeholder="ocupación">
-			      	<input type="text" class="half" placeholder="nivel de estudios">
-			      	<input type="text" class="half" placeholder="intereses">
-			      	<input type="text" class="half" placeholder="Apellidos">
-			      	<input type="text" class="half" placeholder="país">
-			      	<input type="text" class="half" placeholder="cuidad">
+			      	<input type="text" class="half" placeholder="Edad">
+			      	<input type="text" class="half" placeholder="Genero">
+			      	<input type="text" class="half" placeholder="Profesión">
+			      	<input type="text" class="half" placeholder="Nivel de estudios">
+			      	<input type="text" class="half" placeholder="Intereses">
+			      	<input type="text" class="half" placeholder="Estado civil">
+			      	<input type="text" class="half" placeholder="País">
+			      	<input type="text" class="half" placeholder="Ciudad">
 
 			      	<input type="text" class="half" placeholder="Nueva contraseña">
-			      	<input type="text" class="half" placeholder="confirmar nueva contraseña">
+			      	<input type="text" class="half" placeholder="Confirmar nueva contraseña">
 
 			      	<input type="text" placeholder="Cuentanos sobre ti" class="text">
 			      	<input type="text" placeholder="Cuales son tus habilidades especiales" class="text">
