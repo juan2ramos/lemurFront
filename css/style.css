@@ -1070,7 +1070,7 @@ h3{
 }
 #slide ol a{
 	background: #971a1e;
-	border: 1px solid rgba(0, 0, 0, 1);
+	border: 0px solid rgba(0, 0, 0, 1);
 	display: inline-flex;
 	color: rgba(255, 0, 0, 0);
 	font-size: 0;
@@ -1079,7 +1079,7 @@ h3{
 	
 }
 #slide:hover img{
-	opacity: 0.5
+	opacity: 0.2;
 }
 #slide img{
 	max-width: 400px
