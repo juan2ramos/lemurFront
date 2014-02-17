@@ -430,16 +430,13 @@ Categorias
 /*=================================================================
 sube tu idea
 ===================================================================*/
-#input-contend{
-	position: relative;
-}
+
 #input-contend span{
 	color: rgb(256, 256, 256);
 	font-size: .8em;
-	font-style: italic;
-    position: absolute;    
-    right: 28px;
-    top: 15px;
+	font-style: italic;    
+    margin: 16px 30px 8px 7px;
+float: right;
 }
 .sube-tu-idea .show-captcha, .sube-tu-idea .captcha, .sube-tu-idea .sumbit{
 	background-color: rgba(0, 0, 0, 0.5);
