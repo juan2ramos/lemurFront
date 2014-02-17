@@ -21,7 +21,7 @@
 					      	<input type="text" id="url-archivo" placeholder="No se ha seleccionado ningún archivo"/>
 				  		</div>
 			      	</div>
-			      	<h3>Perfil Información de perfil</h3>
+			      	<h3>Información de perfil</h3>
 			      	<input type="text" class="half" placeholder="Nombres">
 			      	<input type="text" class="half" placeholder="Apellidos">
 			      	<input type="text" class="half" placeholder="Correo electrónico">
