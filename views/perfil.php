@@ -9,7 +9,7 @@
 				      	</figure>
 				      	<div id="contend-picture">
 					      	<p id="p-picture">
-						      	Puedes subir un archivo JPG, GIF o PNG con un peso menor a 10 MB. Al cargar un archivo estas 
+						      	Puedes subir un archivo JPG, GIF o PNG con un peso menor a 3MB. Al cargar un archivo estas 
 						      	declarando que tienes los permisos para distribuir esta foto y que 
 						      	no violas los derechos de autor.
 					      	</p>

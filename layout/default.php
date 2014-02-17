@@ -34,7 +34,7 @@
                     <a href="categorias"><img src="images/logo.png" /></a>
                 </figure>
                 <div id="contend-form">
-                    <a href="#" id="img-registrar" class="popup-link">Registrate</a>
+                    <a href="#" id="img-registrar" class="popup-link">Regístrate</a>
                     <a href="#" id="img-ingresar" class="popup-link">Ingresa</a>
         
                     <form>
@@ -211,7 +211,7 @@
                                     <a href="#"><img src="images/google_plus.png"></a>
                                 </li>
                             </ul>
-                            <input type="submit" value="Registrate">
+                            <input type="submit" value="Regístrate">
                         </div>
                     </form>
                 </div>
