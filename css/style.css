@@ -1078,7 +1078,7 @@ h3{
 	
 }
 #slide:hover img{
-	opacity: .5
+	opacity: 0.5
 }
 #slide img{
 	max-width: 400px
