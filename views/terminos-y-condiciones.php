@@ -1,3 +1,4 @@
+		<div class="back"><a href="categorias">Volver</a></div>
 			<div class="terminos-y-condiciones">
 		      <h2>Términos y Condiciones</h2>
 		      <p>
