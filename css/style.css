@@ -1100,7 +1100,7 @@ h3{
 	margin: 26px 5 0 0;
 }
 .detalle-idea .izq{
-	background: rgba(248, 152, 28, 0.8) url("http://local.juan2ramos.com/lemurFront/css/../images/vota2.png") no-repeat left -3px;
+	background: rgba(248, 152, 28, 0.8) url("../images/vota2.png") no-repeat left -3px;
 	display: inline-block;
 	margin-top: 10px;
 	min-height: 10px;
