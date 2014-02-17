@@ -58,7 +58,7 @@ $(function() {
 
   if ($('.slider').length > 0) {
       $('.slider').flexslider({
-      animation: "none",
+      animation: "slide",
       slideshow: true,
       prevText: "<",
       nextText: ">",
@@ -68,7 +68,7 @@ $(function() {
     });
   }
   $('#slide').flexslider({
-      animation: "none",
+      animation: "slide",
       slideshow: true,
       prevText: "<",
       nextText: ">"

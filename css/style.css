@@ -1087,6 +1087,9 @@ h3{
 #slide ol a:active {
 	background: #000
 }
+#slide ol a.flex-active{
+	background: #000
+}
 #slide:hover img{
 	opacity: 0.2;
 }
