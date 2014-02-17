@@ -150,7 +150,7 @@ header dd, header dt {
 	background: rgba(0, 0, 0, 0.5);
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
-	margin-top: 20px;
+	margin-top: 14px;
 }
 #hours,#user-info,.img-cronos{
 	display: inline-block;
