@@ -199,7 +199,7 @@
                             </p>                
                         </div>
                         <div class="form form-net"> 
-                            <p>Registrate con</p>
+                            <p>Regístrate con</p>
                             <ul>
                                 <li>
                                     <a href="#"><img src="images/facebook.png"></a>
