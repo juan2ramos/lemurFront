@@ -130,10 +130,10 @@
                         <a href="#" id="about"><img src="images/signo.png"></a>
                     </li>
                     <li>
-                        <a href="#"><img src="images/facebook.png"></a>
+                        <a href="https://www.facebook.com/lemurstudio.com.co"><img src="images/facebook.png"></a>
                     </li>
                     <li>
-                        <a href="#" ><img src="images/twitter.png"></a>
+                        <a href="https://twitter.com/LemurStudio1" ><img src="images/twitter.png"></a>
                     </li>
             </ul> 
         </div>
