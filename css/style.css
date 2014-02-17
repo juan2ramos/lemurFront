@@ -1054,6 +1054,7 @@ h3{
 }
 #slide{
 	background: url("../images/more-back.png") center center no-repeat;
+	background-color: rgba( 0, 0, 0, 0.2);
 	cursor: pointer;
 	display: inline-block;
 	height: 235px;
