@@ -150,7 +150,7 @@ header dd, header dt {
 	background: rgba(0, 0, 0, 0.5);
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
-	margin-top: 20px;
+	margin-top: 14px;
 }
 #hours,#user-info,.img-cronos{
 	display: inline-block;
@@ -575,7 +575,7 @@ vota por una idea
 	border-color: transparent;
 	margin: 17px 40px 28px 0;
 	position: relative;
-	width: 260px;
+	width: 259px;
 	z-index: 4;
 }
 .vota-por-una-idea li:nth-child(2n){
@@ -1067,7 +1067,7 @@ h3{
 }
 #slide ol a{
 	background: #971a1e;
-	border: 1px solid rgba(0, 0, 0, 1);
+	border: 0px solid rgba(0, 0, 0, 1);
 	display: inline-flex;
 	color: rgba(255, 0, 0, 0);
 	font-size: 0;
@@ -1076,7 +1076,7 @@ h3{
 	
 }
 #slide:hover img{
-	opacity: .5
+	opacity: 0.2;
 }
 #slide img{
 	max-width: 400px
