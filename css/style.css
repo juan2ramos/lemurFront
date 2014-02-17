@@ -525,10 +525,10 @@ vota por una idea
 }
 .back a{
 	background: rgba(0,0,0,0.5);
-	margin-top:  10px;
+	margin-top:  6px;
 	color: #fff;
 	display: block;
-	padding: 6px 20px;
+	padding: 11px 20px;
 	text-decoration: none;
 	font-size: 17px;
 }
@@ -1074,6 +1074,9 @@ h3{
 	margin-right: 5px;
 	padding: 5px;
 	
+}
+#slide ol a:hover {
+	background: #000
 }
 #slide:hover img{
 	opacity: 0.2;
