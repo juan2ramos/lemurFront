@@ -28,7 +28,7 @@
 			      	<input type="text" class="half" placeholder="Nombre de usuario">
 
 			      	<input type="text" class="half" placeholder="Edad">
-			      	<input type="text" class="half" placeholder="Genero">
+			      	<input type="text" class="half" placeholder="Género">
 			      	<input type="text" class="half" placeholder="Profesión">
 			      	<input type="text" class="half" placeholder="Nivel de estudios">
 			      	<input type="text" class="half" placeholder="Intereses">
@@ -39,7 +39,7 @@
 			      	<input type="text" class="half" placeholder="Nueva contraseña">
 			      	<input type="text" class="half" placeholder="Confirmar nueva contraseña">
 
-			      	<input type="text" placeholder="Cuentanos sobre ti" class="text">
+			      	<input type="text" placeholder="Cuentanos sobre tí" class="text">
 			      	<input type="text" placeholder="Cuales son tus habilidades especiales" class="text">
 
 			      	<input class="sumbit" type="submit2" value="Guardar">
