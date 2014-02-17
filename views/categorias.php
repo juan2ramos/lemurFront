@@ -18,5 +18,13 @@
                     <a href="vota-por-una-idea" class="link">
                       <div class="contend-img"><img src="images/herramientas.png"></div>
                       <div class="contend-p"><p>Nombre categoría</p></div>
+                    <a href="vota-por-una-idea" class="link">
+                      <div class="contend-img"><img src="images/herramientas.png"></div>
+                      <div class="contend-p"><p>Nombre categoría</p></div>
+                    <a href="vota-por-una-idea" class="link">
+                      <div class="contend-img"><img src="images/herramientas.png"></div>
+                      <div class="contend-p"><p>Nombre categoría</p></div>
+                      
+                      
                     </a>
                 </div> 
