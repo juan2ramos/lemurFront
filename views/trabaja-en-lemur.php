@@ -11,7 +11,7 @@
 		      <form class="contact-form">
 		        <label>Nombre<span>*</span></label>
 		        <input type="text">
-		        <label>apellidos<span>*</span></label>
+		        <label>Apellidos<span>*</span></label>
 		        <input type="text">
 		        <label>Correo electrónico<span>*</span></label>
 		        <input type="text">	        

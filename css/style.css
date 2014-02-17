@@ -1157,7 +1157,8 @@ about
 	width: 720px
 }
 .about-contend h1{
-	margin: 0
+	margin: 0;
+	font-weight: 100;
 }
 /*=================================================================
 Slider

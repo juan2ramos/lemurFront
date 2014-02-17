@@ -12,17 +12,17 @@
 
 		        <div id="input-contend">
 			        <label>Describe tu idea en pocas palabras</label>
-			        <span>500 caracteres restante</span>
+			        <span>500 caracteres restantes</span>
 			        <input placeholder="(Vende tu idea en un ascensor)"class="text" type="text">
 		        </div>
 		        <div id="input-contend">
 			        <label>Describe la oportunidad o problemática que descubriste</label>
-			        <span>1000 caracteres restante</span>
+			        <span>1000 caracteres restantes</span>
 			        <input placeholder="(Cuentanos del problema)"class="text" type="text">
 		        </div>
 		        <div id="input-contend">
 			        <label>Describe cómo solucionaste el problema</label>
-			        <span>1000 caracteres restante</span>
+			        <span>1000 caracteres restantes</span>
 			        <input placeholder="(¿Cúal es tu solución?)"class="text" type="text">
 		        </div> 
 
