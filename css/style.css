@@ -1128,9 +1128,9 @@ h3{
 	display: inline-block;
 	margin-top: 11px;
 	min-height: 10px;
-	padding: 5px 12px 3px 40px;
+	padding: 5px 12px 4px 40px;
 	width: auto;
-	font-size: 20px;
+	font-size: 19px;
 }	
 
 .detalle-idea input[type='submit']{

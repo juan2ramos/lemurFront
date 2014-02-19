@@ -33,7 +33,7 @@
 					      Si requieres algún desarrollo de producto especial para tu empresa o para tí 
 					      no dudes en escribirnos, estaremos en contacto contigo para realizarlo juntos, 
 					      en Lemur Studio creemos en el trabajo participativo lo que asegura que el 
-					      resultado de éste sea exactamente lo que busca y necesita.
+					      resultado de éste sea exactamente lo que buscas y necesitas.
 				      	</p>		  
 			      	</div>    		
 		      	</li>
