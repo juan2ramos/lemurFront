@@ -122,9 +122,11 @@
                 </ul>                
             </nav> 
             <!-- contend -->
-            <section id="contend" >               
-                <?php require_once $fileName; ?>
-           </section>
+            <?php if (!$index):?>
+                <section id= 'contend' >               
+                    <?php require_once $fileName; ?>
+                </section>
+            <?php  endif ?>
             <ul id="network">
                     <li>
                         <a href="#" id="about"><img src="images/signo.png"></a>
@@ -241,10 +243,15 @@
             </section>
         </div>
         
-
+        <?php if ($index):?>
+            <section id='contend-index' >               
+                <?php require_once $fileName; ?>
+            </section>
+        <?php  endif ?>
     <!-- JavaScript -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+    <script src="js/skrollr.min.js"></script>
     <script src="js/script.js"></script>
     <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
     <script>

@@ -362,7 +362,7 @@ footer p,footer img{
 /*=================================================================
 Contend
 ===================================================================*/
-#contend{
+#contend, #contend-index{
 	background-color: rgba(0, 0, 0, 0.5);
 	display: inline-block;
 	box-sizing: border-box;	
@@ -372,6 +372,8 @@ Contend
 	vertical-align: top;
 	width: 658px;
 }
+
+
 #contend h2{
 	color: #FFFFFF;
 	font-size: 2.05em;
@@ -1231,7 +1233,166 @@ Slider
 	position: fixed;
 	top: 0;
 	z-index: -1000
-}		
+}	
+/*=================================================================
+Scrolling
+===================================================================*/
+#contend-index{
+	background: none;
+	height: 100%;
+	margin: 0;
+	position: fixed;
+	width: 100%;
+} 
+.slide, .slide1,.slide3,.slide3{
+	margin: 160px auto;
+	position: relative;
+	width: 900px;
+} 
+.slide p{
+	color: #fff;
+	font-size: 49px;
+	line-height: 49px;
+	margin: 0;
+}	
+.slide figure{
+	margin-top: 60px;
+	padding-right: 200px;
+
+}
+.hsContent{
+	position: absolute;
+	text-align: right;
+	right: 100px
+
+}
+.slide-2 { 
+	color: #fff;
+	top: 50px;
+
+}
+
+.slide-2 p{ 
+	font-size: 40px;	
+	margin: 0;
+}
+.slide-2  figure{
+	padding: 0;
+	position: absolute;
+	right: -200px;
+	top: 700px;
+
+}
+#pajaro{
+
+	right: 448px;
+	top: 700px;
+
+}
+#pajaro2{
+	right: 280px;
+	top: 700px;
+}
+#pajaroVolar{
+	right: 395px;
+	top:207px;
+}
+#pajaroVolar2{
+	right: 275px;
+	top:135px;
+}
+#gatoVolar{
+	right: -115px;
+	top:240px;
+}
+#hombre{
+	position: absolute;
+	right: 330px;
+	top: 1400px;
+}
+#hombre2{
+	position: absolute;
+	right: 275px;
+	top: 28px;
+}
+#parrafos-hombre {
+	position: absolute;
+	font-size: 40px;
+	width: 241px;
+	right: 0;
+	top: 210px;
+
+}
+#parrafos-hombre p{
+	margin: 0;
+	color: #fff
+
+}
+#bombilla{
+	position: absolute;
+	right: 290px;
+	top: 53px;
+
+}
+#mac{
+	position: absolute;
+	right: 190px;
+	top: 1400px;
+
+}
+#parrafos-mac{
+	position: absolute;
+	font-size: 40px;
+	width: 420px;
+	right: 160px;
+	top: 0px;
+
+}
+#parrafos-mac p{
+	margin: 0;
+	color: #fff
+
+}
+#mac2{
+	position: absolute;
+	right: 190px;
+	top: 130px;
+
+}
+#parrafos-mac2{
+	position: absolute;
+	font-size: 40px;
+	width: 485px;
+	right: 160px;
+	top: 0px;
+
+}
+#parrafos-mac2 p{
+	margin: 0;
+	color: #fff
+
+}
+
+
+#banderin{
+	position: absolute;
+	right: 390px;
+	top: 1400px;
+
+}
+#parrafos-banderin{
+	position: absolute;
+	font-size: 40px;
+	width: 485px;
+	right: 160px;
+	top: 0px;
+
+}
+#parrafos-banderin p{
+	margin: 0;
+	color: #fff
+
+}
 /*=================================================================
 State
 ===================================================================*/
