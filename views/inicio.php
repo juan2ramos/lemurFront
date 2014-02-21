@@ -175,6 +175,9 @@
         <figure id="banderin"  
             data-10000="top: 1400px;"
             data-10600="top: 100px;"
+
+            data-11500=" opacity: 1;top:100px"
+            data-12000=" opacity: 0;top:50px"
             >
 
            <img src="images/banderin.png " alt="">
@@ -183,10 +186,171 @@
             data-0=" opacity: 0;"
             data-10800=" opacity: 0;top:30px"
             data-11300=" opacity: 1;top:0"
+            data-11500=" opacity: 1;top:0"
+            data-12000=" opacity: 0;top:-50px"
             >
             <p>Si tu idea es elegida </p>
 
         </div> 
+
+
+
+        <figure id="mac3"    
+            data-12500="top: 1400px;" 
+            data-13000="top: 100px;"
+            data-14000=" opacity: 1;top:100px"
+            data-14500=" opacity: 0;top:50px"
+
+           
+            >
+
+           <img src="images/mac3.png " alt="">
+        </figure>
+        <div id="parrafos-mac3"
+            data-0=" opacity: 0;"
+            data-13000=" opacity: 0;top:30px"
+            data-13500=" opacity: 1;top:0"
+            data-14000=" opacity: 1;top:0"
+            data-14500=" opacity: 0;top:-30px"
+            >
+            <p>nosotros la diseñaremos... </p>
+            
+        </div>
+
+
+        <figure id="tablet"    
+            data-14500="top: 1400px;" 
+            data-15000="top: 158px;"
+            data-15500=" opacity: 1;top:100px"
+            data-15800=" opacity: 0;top:50px"
+           
+            >
+
+           <img src="images/tablet.png " alt="">
+        </figure>
+        <div id="parrafos-tablet"
+            data-0=" opacity: 0;"
+            data-14800=" opacity: 0;top:30px"
+            data-15200=" opacity: 1;top:0"
+            data-15500=" opacity: 1;top:0px"
+            data-15800=" opacity: 0;top:-30px"
+
+            >
+            <p>la produciremos... </p>
+            
+        </div>
+
+
+
+        <figure id="caja"    
+            data-15500="top: 1400px;" 
+            data-15800="top: 158px;"
+            data-16000=" opacity: 1;top:100px"
+            data-16500=" opacity: 0;top:50px"
+           
+           
+            >
+
+           <img src="images/caja.png " alt="">
+        </figure>
+        <div id="parrafos-caja"
+            data-0=" opacity: 0;"
+            data-15900=" opacity: 0;top:30px"
+            data-16000=" opacity: 1;top:0"
+            data-16000=" opacity: 1;top:0px"
+            data-16500=" opacity: 0;top:-30px"
+            >
+            <p> y la comercializaremos... </p>
+            
+        </div>
+
+
+
+         <figure id="cajas3"    
+            data-16000="top: 1400px;" 
+            data-16500="top: 158px;"
+            data-17000=" opacity: 1;top:100px"
+            data-17500=" opacity: 0;top:50px"
+            
+            >
+
+           <img src="images/cajas3.png " alt="">
+        </figure>
+        <div id="parrafos-cajas3"
+            data-0=" opacity: 0;"
+            data-16700=" opacity: 0;top:30px"
+            data-16900=" opacity: 1;top:0"
+            data-17000=" opacity: 1;top:0px"
+            data-17500=" opacity: 0;top:-30px"
+            
+            >
+            <p>Obtendras dinero por cada </p>
+            <p> producto vendido   </p>
+
+        </div>
+
+        <figure id="casa"    
+            data-17000="top: 1400px;" 
+            data-17500="top: 158px;"
+            data-18000=" opacity: 1;top:100px"
+            data-18500=" opacity: 0;top:50px"
+            
+            >
+
+           <img src="images/casa.png " alt="">
+        </figure>
+        <div id="parrafos-casa"
+            data-0=" opacity: 0;"
+            data-17700=" opacity: 0;top:30px"
+            data-17900=" opacity: 1;top:0"
+            data-18000=" opacity: 1;top:0"
+            data-18500=" opacity: 0;top:-30px"
+            
+            >
+            <p>Ademas te alegrara saber</p>
+            <p> que tu solucion ayudo a otros </p>
+
+        </div>
+
+        <figure id="gato2"    
+            data-17000="top: 1400px;" 
+            data-17500="top: 353px;"
+            data-18000=" opacity: 1;top:100px"
+            data-18500=" opacity: 0;top:50px"
+           
+            
+            >
+
+           <img src="images/gato2.png " alt="">
+        </figure>
+
+
+
+
+        <figure id="macpc3"    
+            data-18000="top: 1400px;" 
+            data-18500="top: 158px;"
+
+            >
+
+           <img src="images/macpc3.png " alt="">
+        </figure>
+        <div id="parrafos-macpc3"
+            data-0=" opacity: 0;"
+            data-18600=" opacity: 0;top:30px"
+            data-19000=" opacity: 1;top:0"
+            
+            >
+            <p>si aun no tienes una idea, elige</p>
+            <p> tu favorita y ayudala con tu voto </p>
+
+        </div>
+        
+
+        
+
+       
+
     </div>    
 </section>
 

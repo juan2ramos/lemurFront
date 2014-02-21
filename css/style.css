@@ -1248,7 +1248,7 @@ Scrolling
 	position: fixed;
 	width: 100%;
 } 
-.slide, .slide1,.slide3,.slide3{
+.slide, .slide1,.slide3,.slide3,.slide4{
 	margin: 160px auto;
 	position: relative;
 	width: 900px;
@@ -1340,7 +1340,7 @@ Scrolling
 }
 #mac{
 	position: absolute;
-	right: 190px;
+	right: 0;
 	top: 1400px;
 
 }
@@ -1348,7 +1348,7 @@ Scrolling
 	position: absolute;
 	font-size: 40px;
 	width: 420px;
-	right: 160px;
+	right: 0;
 	top: 0px;
 
 }
@@ -1359,7 +1359,7 @@ Scrolling
 }
 #mac2{
 	position: absolute;
-	right: 190px;
+	right: 0;
 	top: 130px;
 
 }
@@ -1367,7 +1367,7 @@ Scrolling
 	position: absolute;
 	font-size: 40px;
 	width: 485px;
-	right: 160px;
+	right: 0;
 	top: 0px;
 
 }
@@ -1376,11 +1376,30 @@ Scrolling
 	color: #fff
 
 }
+#mac3{
+	position: absolute;
+	right: 0;
+	top: 100px;
+
+}
+#parrafos-mac3{
+	position: absolute;
+	font-size: 40px;
+	width: 485px;
+	right: 0;
+	top: 0px;
+
+}
+#parrafos-mac3 p{
+	margin: 0;
+	color: #fff
+
+}
 
 
 #banderin{
 	position: absolute;
-	right: 390px;
+	right: 185px;
 	top: 1400px;
 
 }
@@ -1388,13 +1407,138 @@ Scrolling
 	position: absolute;
 	font-size: 40px;
 	width: 485px;
-	right: 160px;
+	right: 0;
 	top: 0px;
 
 }
 #parrafos-banderin p{
 	margin: 0;
 	color: #fff
+
+}
+
+#caja{
+	position: absolute;
+	top: 139px;
+	right: 75px;
+
+}
+#parrafos-caja{
+	position: absolute;
+	font-size: 40px;
+	width: 485px;
+	right: 0;
+	top: 0px;
+
+}
+#parrafos-caja p{
+	margin: 0;
+	color: #fff
+
+}
+#cajas3{
+	position: absolute;
+	top: 165px;
+	right:271px;
+
+}
+#parrafos-cajas3{
+	position: absolute;
+	font-size: 40px;
+	width: 485px;
+	right: 0;
+	top: 0px;
+
+}
+#parrafos-cajas3 p{
+	margin: 0;
+	color: #fff
+	
+
+}
+
+#casa{
+	position: absolute;
+	top: 139px;
+	right:87px;
+
+}
+#parrafos-casa{
+	position: absolute;
+	font-size: 40px;
+	width: 503px;
+	right: 0;
+	top: 0px;
+
+}
+#parrafos-casa p{
+	margin: 0;
+	color: #fff
+	
+
+}
+
+#gato2{
+	position: absolute;
+	top: 353px;
+	right:-39px;
+
+}
+#parrafos-gato2{
+	position: absolute;
+	font-size: 40px;
+	width: 485px;
+	right: 0;
+	top: 0px;
+
+}
+#parrafos-gato2 p{
+	margin: 0;
+	color: #fff
+	
+
+}
+
+
+#tablet{
+	position: absolute;
+	right: 0;
+	top: 158px;
+
+}
+#parrafos-tablet{
+	position: absolute;
+	font-size: 40px;
+	width: 485px;
+	right: 0;
+	top: 0px;
+
+}
+#parrafos-tablet p{
+	margin: 0;
+	color: #fff
+
+}
+
+
+#macpc3{
+	position: absolute;
+	top: 139px;
+	right:87px;
+
+}
+#parrafos-macpc3{
+	position: absolute;
+	font-size: 40px;
+	width: 503px;
+	right: 0;
+	top: 0px;
+
+}
+#parrafos-macpc3 p{
+	margin: 0;
+	color: #fff
+	
 
 }
 /*=================================================================
