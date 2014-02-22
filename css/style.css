@@ -375,6 +375,7 @@ Contend
 	margin-left:20px;
 	vertical-align: top;
 	width: 658px;
+	z-index: -1;
 }
 
 
@@ -1438,7 +1439,7 @@ Scrolling
 }
 #cajas3{
 	position: absolute;
-	top: 165px;
+	top: 150px;
 	right:271px;
 
 }
@@ -1459,7 +1460,7 @@ Scrolling
 
 #casa{
 	position: absolute;
-	top: 139px;
+	top: 129px;
 	right:87px;
 
 }
@@ -1480,7 +1481,7 @@ Scrolling
 
 #gato2{
 	position: absolute;
-	top: 353px;
+	top:331px;
 	right:-39px;
 
 }
@@ -1511,7 +1512,7 @@ Scrolling
 	font-size: 40px;
 	width: 485px;
 	right: 0;
-	top: 0px;
+	top: 0;
 
 }
 #parrafos-tablet p{
@@ -1523,14 +1524,14 @@ Scrolling
 
 #macpc3{
 	position: absolute;
-	top: 139px;
-	right:87px;
+	top: 144px;
+	right:9px;
 
 }
 #parrafos-macpc3{
 	position: absolute;
 	font-size: 40px;
-	width: 503px;
+	width: 551px;
 	right: 0;
 	top: 0px;
 
@@ -1541,6 +1542,74 @@ Scrolling
 	
 
 }
+#flecha{
+	position: absolute;
+	top: 407px;
+	right:314px;
+	-webkit-transform: matrix(-1,0,0,-1,62,62);
+
+}
+#parrafos-flecha{
+	position: absolute;
+	font-size: 40px;
+	width: 551px;
+	right: 0;
+	top: 0px;
+
+}
+#parrafos-flecha p{
+	margin: 0;
+	color: #fff
+	
+}
+#parrafos-cajas1{
+	margin: 0;
+	position: absolute;
+	font-size: 40px;
+	width: 551px;
+	right: 0;
+	top: 0px;
+
+}
+#parrafos-cajas1 p{
+	margin: 0;
+	color: #fff
+	
+}
+#parrafos-conter p{
+	margin: 0;
+	color: #fff
+	
+}
+
+#conter{
+	margin: 0;
+	position: absolute;
+	font-size: 40px;
+	width: 551px;
+	right: 0;
+	top: 300px;
+
+}
+#conter p{
+	margin: 0;
+	color: #fff
+}
+#arrows-slide{
+	position: fixed;
+	right: 120px;
+	top: 320px;
+}
+.arrows  img{
+	max-width: 30px
+}
+
+.arrows-up{
+	-webkit-transform: rotate(180deg);
+}
+	
+
+
 /*=================================================================
 State
 ===================================================================*/
@@ -1548,7 +1617,7 @@ State
 	display: block;
 }
 .hidden{
-	display: none;
+	display: none !important;
 }
 .modify{
 	margin-top: 20px;

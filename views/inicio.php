@@ -1,3 +1,5 @@
+
+
 <section class="slide" 
     data-0=" margin:160px auto;opacity: 1;"
     data-1000=" margin:125px auto; opacity: 0; display:hidden"
@@ -269,8 +271,8 @@
          <figure id="cajas3"    
             data-16000="top: 1400px;" 
             data-16500="top: 158px;"
-            data-17000=" opacity: 1;top:100px"
-            data-17500=" opacity: 0;top:50px"
+            data-17000=" opacity: 1;top:158px"
+            data-18500=" opacity: 0;top:135px"
             
             >
 
@@ -284,16 +286,39 @@
             data-17500=" opacity: 0;top:-30px"
             
             >
-            <p>Obtendras dinero por cada </p>
+            <p>Obtendrás dinero por cada </p>
             <p> producto vendido   </p>
 
         </div>
+        <div id="parrafos-cajas1"
+            data-0=" opacity: 0;"
+            data-17500=" opacity: 0;top:30px"
+            data-18000=" opacity: 1;top:0"
+            data-18500=" opacity: 1;top:0px"
+            data-19000=" opacity: 0;top:-30px"
+            
+            >
+            <p> y las personas te conocerán </p>
+            <p>    y por tu idea </p>
 
+        </div>
+        <div id="conter"
+            data-0=" opacity: 0;"
+            data-16700=" opacity: 0;top:250px"
+            data-16900=" opacity: 1;top:300px"
+            data-18500=" opacity: 1;top:300px"
+            data-19000=" opacity: 0;top:250px"
+        >
+          <p>$<span id="change">250</span>.000</p>
+          
+        </div>
+
+        
         <figure id="casa"    
-            data-17000="top: 1400px;" 
-            data-17500="top: 158px;"
-            data-18000=" opacity: 1;top:100px"
-            data-18500=" opacity: 0;top:50px"
+            data-19500="top: 1400px;" 
+            data-20000="top: 158px;"
+            data-20500=" opacity: 1;top:129px"
+            data-21000=" opacity: 0;top:50px"
             
             >
 
@@ -301,22 +326,21 @@
         </figure>
         <div id="parrafos-casa"
             data-0=" opacity: 0;"
-            data-17700=" opacity: 0;top:30px"
-            data-17900=" opacity: 1;top:0"
-            data-18000=" opacity: 1;top:0"
-            data-18500=" opacity: 0;top:-30px"
+            data-19600=" opacity: 0;top:30px"
+            data-20200=" opacity: 1;top:0"
+            data-20500=" opacity: 1;top:0"
+            data-21000=" opacity: 0;top:-30px"
             
             >
-            <p>Ademas te alegrara saber</p>
-            <p> que tu solucion ayudo a otros </p>
-
-        </div>
-
+            <p>Ademas te alegrará saber</p>
+            <p> que tu solucion ayudó a otros </p>
+            </div>
+       
         <figure id="gato2"    
-            data-17000="top: 1400px;" 
-            data-17500="top: 353px;"
-            data-18000=" opacity: 1;top:100px"
-            data-18500=" opacity: 0;top:50px"
+            data-19500="top: 1400px;" 
+            data-20000="top: 353px;"
+            data-20500=" opacity: 1;top:331px"
+            data-21000=" opacity: 0;top:245px"
            
             
             >
@@ -328,8 +352,8 @@
 
 
         <figure id="macpc3"    
-            data-18000="top: 1400px;" 
-            data-18500="top: 158px;"
+            data-21000="top: 1400px;" 
+            data-21500="top: 144px;"
 
             >
 
@@ -337,18 +361,24 @@
         </figure>
         <div id="parrafos-macpc3"
             data-0=" opacity: 0;"
-            data-18600=" opacity: 0;top:30px"
-            data-19000=" opacity: 1;top:0"
+            data-21400=" opacity: 0;top:30px"
+            data-21900=" opacity: 1;top:0"
             
             >
-            <p>si aun no tienes una idea, elige</p>
-            <p> tu favorita y ayudala con tu voto </p>
+            <p>si aún no tienes una idea, elige</p>
+            <p>tu favorita y ayudala con tu voto </p>
 
         </div>
-        
 
-        
+        <figure id="flecha"    
+            data-21000="top: 1400px;" 
+            data-21500="top: 407px;"
 
+            >
+
+           <img src="images/flecha.png " alt="">
+        </figure>
+     
        
 
     </div>    

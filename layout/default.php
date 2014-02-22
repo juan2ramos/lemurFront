@@ -68,7 +68,9 @@
                             </dl>
                             <?php endif;?>
                         </div>
-                        <div id="user-info" class="<?php echo $modify;?>">
+                        <div id="user-info" class="<?php echo $modify;
+                        if($index): echo ' hidden'; endif;
+                        ?>">
                             <p>Usuario</p>
                             <a href="perfil">
                                 <span id="engranaje"></span>
@@ -244,6 +246,10 @@
         </div>
         
         <?php if ($index):?>
+            <div id="arrows-slide">
+                <p ><a id="up" class="arrows " href="#"><img  class="arrows-up" src="images/flecha.png"></a></p>
+                <p><a id="down" class="arrows " href="#"><img src="images/flecha.png"></a></p>
+            </div>
             <section id='contend-index' >               
                 <?php require_once $fileName; ?>
             </section>
