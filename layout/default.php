@@ -246,9 +246,12 @@
         </div>
         
         <?php if ($index):?>
-            <div id="arrows-slide">
-                <p ><a id="up" class="arrows " href="#"><img  class="arrows-up" src="images/flecha.png"></a></p>
-                <p><a id="down" class="arrows " href="#"><img src="images/flecha.png"></a></p>
+            <div id="arrow-contend">
+              
+                <div id="arrows-slide">
+                    <p ><a id="up" class="arrows " href="#"><img  class="arrows-up" src="images/flecha.png"></a></p>
+                    <p><a id="down" class="arrows " href="#"><img src="images/flecha.png"></a></p>
+                </div>
             </div>
             <section id='contend-index' >               
                 <?php require_once $fileName; ?>

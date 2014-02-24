@@ -1596,10 +1596,10 @@ Scrolling
 	color: #fff
 }
 #arrows-slide{
+	left: 50%;
+	margin-left: 400px;
 	position: fixed;
-	right: 120px;
-	top: 320px;
-}
+	top: 320px;}
 .arrows  img{
 	max-width: 30px
 }
